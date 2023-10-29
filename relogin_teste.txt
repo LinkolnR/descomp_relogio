@@ -1,0 +1,313 @@
+VARIAVEL_INIT
+ZERO = 0
+UM = 1
+DOIS = 2
+TRES = 3
+QUATRO = 4
+CINCO = 5
+ATUAL = 6
+AUX_LED = 8
+LIMITE_LED = 9
+DESPERTADOR_HEX0 = 10
+DESPERTADOR_HEX1 = 11
+DESPERTADOR_HEX2 = 12
+DESPERTADOR_HEX3 = 13
+DESPERTADOR_HEX4 = 14
+DESPERTADOR_HEX5 = 15
+VALOR_ATUAL0 = 20
+VALOR_ATUAL1 = 21
+VALOR_ATUAL2 = 22
+VALOR_ATUAL3 = 23
+VALOR_ATUAL4 = 24
+VALOR_ATUAL5 = 25
+LIMITE_9 = 30
+FLAG_12_OU_24 = 31
+FLAG_9 = 32
+FLAG_5 = 33
+FLAG_1 = 34 
+FLAG_2 = 35
+FLAG_4 = 36
+SEIS = 37
+DEZ = 38
+LED0A7 = 256
+LED8 = 257
+LED9 = 258
+HEX0 = 288
+HEX1 = 289
+HEX2 = 290
+HEX3 = 291
+HEX4 = 292
+HEX5 = 293
+SW0a7 = 320
+SW8 = 321
+SW9 = 322
+KEY0 = 352
+KEY1 = 353
+KEY2 = 354
+KEY3 = 355
+FPGA_RESET = 356
+LIMPA_KEY1 = 510
+LIMPA_KEY0 = 511
+VARIAVEL_FIM
+JSR .setup          # Chama a função setup, para limpar os endereços
+JMP .LOOP_HEX
+PASSA_HEX:          # começo do LOOP para HEX0
+JSR .troca_hex
+LOOP_HEX:
+JSR .logica_seleciona
+JEQ .PASSA_HEX       # SE botão for pressionado realiza o salto, se não continua
+JSR .verifica_key1
+JEQ .relogio_principal
+JMP .LOOP_HEX      # se botão não pressionado, volta para o LOOP de HEX0
+relogio_principal:
+JSR .limpa_but
+loop_relogio:
+LDI R1 $1
+STA @LED8 R1
+LDA R0 @ VALOR_ATUAL0
+SOMA R0 @UM
+JMP .loop_relogio
+setup:              # Definindo a função setup, roda sempre no início limpando os valores
+NOP
+LDI R0 $0           
+STA @ZERO R0
+STA @ATUAL R0
+STA @HEX0 R0
+STA @HEX1 R0
+STA @HEX2 R0
+STA @HEX3 R0
+STA @HEX4 R0
+STA @HEX5 R0
+STA @LED8 R0
+STA @LED9 R0
+STA @DESPERTADOR_HEX0 R0
+STA @DESPERTADOR_HEX1 R0
+STA @DESPERTADOR_HEX2 R0
+STA @DESPERTADOR_HEX3 R0
+STA @DESPERTADOR_HEX4 R0
+STA @DESPERTADOR_HEX5 R0
+STA @VALOR_ATUAL0 R0
+STA @VALOR_ATUAL1 R0
+STA @VALOR_ATUAL2 R0
+STA @VALOR_ATUAL3 R0
+STA @VALOR_ATUAL4 R0
+STA @VALOR_ATUAL5 R0
+LDI R0 $1
+STA @UM R0
+STA @LED0A7 R0
+STA @AUX_LED R0
+STA @LIMPA_KEY0 R0
+LDI R0 $2
+STA @DOIS R0
+LDI R0 $3
+STA @TRES R0
+LDI R0 $4
+STA @QUATRO R0
+LDI R0 $5
+STA @CINCO R0
+LDI R0 $6
+STA @SEIS R0
+LDI R0 $10
+STA @DEZ R0
+LDI R0 $32
+STA @LIMITE_LED R0
+RET
+logica_seleciona:
+JSR .escreveSW      # Função que realiza a leitura e faz verificação em qual HEX está escrevendo e escreve no correto
+JSR .verifica_SW9   # Função que faz a verificação se o SW9 está ativo, se sim será 12H
+JSR .verifica_key0  # Função que faz a verificação se o botão KEY0 foi pressionado, se sim flag EQUAL = 1
+RET
+verifica_key0:      # Definindo a função para verificar KEY0
+NOP
+LDA R2 @KEY0
+CEQ R2 @UM
+RET
+verifica_key1:      # Definindo a função para verificar KEY0
+NOP
+LDA R3 @KEY1
+CEQ R3 @UM
+RET
+escreveSW:
+JSR .VALIDA_ENTRADA
+LDA R1 @SW0a7
+LDA R0 @ATUAL
+CEQ R0 @ZERO
+JEQ .HEX0 
+LDA R0 @ATUAL
+CEQ R0 @UM
+JEQ .HEX1
+LDA R0 @ATUAL
+CEQ R0 @DOIS
+JEQ .HEX2 
+LDA R0 @ATUAL
+CEQ R0 @TRES
+JEQ .HEX3
+LDA R0 @ATUAL
+CEQ R0 @QUATRO
+JEQ .HEX4
+LDA R0 @ATUAL
+CEQ R0 @CINCO
+JEQ .HEX5
+HEX0:
+LDA R0 @FLAG_9
+CEQ R0 @ZERO
+JEQ .FINAL
+STA @HEX0 R1
+STA @VALOR_ATUAL0 R1 
+JMP .FINAL 
+HEX1:
+LDA R0 @FLAG_5
+CEQ R0 @ZERO
+JEQ .FINAL
+STA @HEX1 R1 
+STA @VALOR_ATUAL1 R1 
+JMP .FINAL 
+HEX2:
+LDA R0 @FLAG_9
+CEQ R0 @ZERO
+JEQ .FINAL
+STA @HEX2 R1 
+STA @VALOR_ATUAL2 R1 
+JMP .FINAL 
+HEX3:
+LDA R0 @FLAG_5
+CEQ R0 @ZERO
+JEQ .FINAL
+STA @HEX3 R1 
+STA @VALOR_ATUAL3 R1 
+JMP .FINAL 
+HEX4:
+LDA R0 @FLAG_12_OU_24
+CEQ R0 @UM
+JEQ .12_VERIFICA
+LDA R0 @FLAG_4
+CEQ R0 @UM
+JEQ .CARREGA_HEX4
+12_VERIFICA:
+LDA R0 @FLAG_2
+CEQ R0 @ZERO
+JEQ .FINAL
+CARREGA_HEX4:
+STA @HEX4 R1 
+STA @VALOR_ATUAL4 R1 
+JMP .FINAL 
+HEX5:
+LDA R0 @FLAG_12_OU_24
+CEQ R0 @UM
+JEQ .12_VERIFICA_5
+LDA R0 @FLAG_2
+CEQ R0 @UM
+JEQ .CARREGA_HEX5
+12_VERIFICA_5:
+LDA R0 @FLAG_1
+CEQ R0 @ZERO
+JEQ .FINAL
+CARREGA_HEX5:
+STA @HEX5 R1 
+STA @VALOR_ATUAL5 R1 
+FINAL:
+RET 
+atualiza_atual:
+LDA R0 @ATUAL
+CEQ R0 @CINCO
+JEQ .VOLTA_UM
+SOMA R0 @UM
+STA @ATUAL R0
+RET
+VOLTA_UM:
+LDI R0 $0
+STA @ATUAL R0
+RET
+limpa_but:
+STA @LIMPA_KEY0 R0 
+STA @LIMPA_KEY1 R0
+RET
+troca_hex:
+JSR .atualiza_atual
+JSR .ajusta_leds
+JSR .muda_led
+JSR .limpa_but
+RET
+ajusta_leds:
+LDA R0 @AUX_LED
+CEQ R0 @LIMITE_LED
+JEQ .VOLTA_LED
+LDA R0 @AUX_LED
+SOMA R0 @AUX_LED
+STA @AUX_LED R0
+RET
+VOLTA_LED:
+LDI R0 $1
+STA @AUX_LED R0
+RET
+muda_led:
+LDA R0 @AUX_LED
+STA @LED0A7 R0
+RET
+VALIDA_ENTRADA:
+LDI R3 $1
+LDA R1 @FLAG_12_OU_24
+CEQ R1 @UM 
+JEQ .12H            # Salta se estiver no modo 12HORAS se não continua para 24horas
+LDA R1 @SW0a7
+CLT R1 @TRES
+JLT .MENOR_TRES     # modo 24 horas, verifica se o valor é menor que 3 (para validar a hora mais significativa)
+LDI R0 $0           
+STA @FLAG_2 R0      # desativa a escrita se a hora não é permitida
+LDA R1 @SW0a7
+CLT R1 @CINCO
+JLT .MENOR_QUATRO   # modo 24 horas, verifica se o valor é menor que 3 (para validar a segunda hora mais significativa)
+LDI R0 $0
+STA @FLAG_4 R0      # desativa a escrita se a hora não é permitida
+JMP .COMUM
+MENOR_QUATRO:
+STA @FLAG_4 R3 
+JMP .MENOR_SEIS
+12H:            # Faz a verificação no caso de 12H
+LDA R1 @SW0a7
+CLT R1 @DOIS
+JLT .MENOR_DOIS         # verifica se é menor que 2
+LDI R0 $0
+STA @FLAG_1 R0
+LDA R1 @SW0a7
+CLT R1 @TRES
+JLT .MENOR_TRES         # verifica se é menor que 3
+LDI R0 $0
+STA @FLAG_2 R0
+COMUM:
+LDA R1 @SW0a7
+CLT R1 @SEIS
+JLT .MENOR_SEIS         # verifica se é menor que 6
+LDI R0 $0
+STA @FLAG_5 R0
+LDA R1 @SW0a7
+CLT R1 @DEZ
+JLT .MENOR_DEZ         # verifica se é menor que 6
+LDI R0 $0
+STA @FLAG_9 R0
+JMP .FINAL_FUNC
+MENOR_DOIS: 
+STA @FLAG_1 R3      # ATIVA SÓ QUANDO MENOR QUE 2
+MENOR_TRES:
+STA @FLAG_2 R3      # ATIVA QUANDO FOR MENOR QUE 3
+MENOR_SEIS:
+STA @FLAG_5 R3  
+MENOR_DEZ:
+LDI R0 $1
+STA @FLAG_9 R3  
+JMP .FINAL_FUNC
+FINAL_FUNC:
+RET
+verifica_SW9:
+LDA R0 @SW9
+CEQ R0 @UM
+JEQ .SW_ATIVO
+LDI R0 $0
+STA @FLAG_12_OU_24 R0 
+STA @LED9 R0
+RET
+SW_ATIVO:
+LDI R0 $1
+STA @FLAG_12_OU_24 R0 
+STA @LED9 R0
+RET
