@@ -3,6 +3,9 @@ USE ieee.std_logic_1164.ALL;
 use ieee.numeric_std.all;
 
 entity divisorGenerico_e_Interface is
+   generic (
+          tempo: natural := 5
+    );
    port(clk      :   in std_logic;
       habilitaLeitura : in std_logic;
       limpaLeitura : in std_logic;
@@ -16,7 +19,7 @@ architecture interface of divisorGenerico_e_Interface is
 begin
 
 baseTempo: entity work.divisorGenerico
-           generic map (divisor => 25000000)   -- divide por 10.
+           generic map (divisor => tempo)   -- divide por 10.
            port map (clk => clk, saida_clk => saidaclk_reg1seg);
 
 registraUmSegundo: entity work.FlipFlop

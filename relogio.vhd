@@ -247,7 +247,7 @@ CLK <= CLOCK_50;
 								
 								
 	-- Bases de tempo para o Relógio
-	BaseTempo : entity work.divisorGenerico_e_Interface  -- 25M vai dividir por 50M e temos a saida de um segundo
+	BaseTempo : entity work.divisorGenerico_e_Interface generic map (tempo => 25000000)  -- 25M vai dividir por 50M e temos a saida de um segundo
               port map (clk => CLK,
               habilitaLeitura => habilita_base_tempo,
               limpaLeitura => limpa_leitura_tempo,
@@ -256,7 +256,7 @@ CLK <= CLOCK_50;
 				  
 				 
 					 
-	BaseTempoRapida : entity work.divisorGenerico_e_Interface  -- Uma base de tempo mais rápida
+	BaseTempoRapida : entity work.divisorGenerico_e_Interface   generic map (tempo => 2500)  -- Uma base de tempo mais rápida
               port map (clk => CLK,
               habilitaLeitura => habilita_base_tempo_rapido,
               limpaLeitura => limpa_leitura_tempo_rapido,

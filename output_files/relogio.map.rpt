@@ -1,5 +1,5 @@
 Analysis & Synthesis report for relogio
-Mon Oct 30 09:07:45 2023
+Mon Oct 30 17:10:43 2023
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -13,60 +13,62 @@ Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
   5. Analysis & Synthesis Source Files Read
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
-  8. Registers Removed During Synthesis
-  9. General Register Statistics
- 10. Multiplexer Restructuring Statistics (Restructuring Performed)
- 11. Parameter Settings for User Entity Instance: Top-level Entity: |relogio
- 12. Parameter Settings for User Entity Instance: memoriaROM:ROM
- 13. Parameter Settings for User Entity Instance: memoriaRAM:RAM
- 14. Parameter Settings for User Entity Instance: cpu:CPU
- 15. Parameter Settings for User Entity Instance: cpu:CPU|bancoRegistradoresArqRegMem:bancoRegistradores
- 16. Parameter Settings for User Entity Instance: cpu:CPU|ULA:ULA
- 17. Parameter Settings for User Entity Instance: cpu:CPU|muxGenerico2x1:MUX_CPU
- 18. Parameter Settings for User Entity Instance: cpu:CPU|muxGenerico4x1:MUX_ENDERECO
- 19. Parameter Settings for User Entity Instance: cpu:CPU|registradorGenerico:PC
- 20. Parameter Settings for User Entity Instance: cpu:CPU|somaConstante:incrementaPC
- 21. Parameter Settings for User Entity Instance: cpu:CPU|memoriaRAM:RAM_END
- 22. Parameter Settings for User Entity Instance: cpu:CPU|muxGenerico2x1:MUX_END
- 23. Parameter Settings for User Entity Instance: cpu:CPU|ULASomaSubEND:ULA_END
- 24. Parameter Settings for User Entity Instance: cpu:CPU|registradorGenerico:REG_retorno
- 25. Parameter Settings for User Entity Instance: registradorGenerico:Registrador_LEDs
- 26. Parameter Settings for User Entity Instance: displayHEX:HEX_0
- 27. Parameter Settings for User Entity Instance: displayHEX:HEX_0|registradorGenerico:REG_HEX0
- 28. Parameter Settings for User Entity Instance: displayHEX:HEX_1
- 29. Parameter Settings for User Entity Instance: displayHEX:HEX_1|registradorGenerico:REG_HEX0
- 30. Parameter Settings for User Entity Instance: displayHEX:HEX_2
- 31. Parameter Settings for User Entity Instance: displayHEX:HEX_2|registradorGenerico:REG_HEX0
- 32. Parameter Settings for User Entity Instance: displayHEX:HEX_3
- 33. Parameter Settings for User Entity Instance: displayHEX:HEX_3|registradorGenerico:REG_HEX0
- 34. Parameter Settings for User Entity Instance: displayHEX:HEX_4
- 35. Parameter Settings for User Entity Instance: displayHEX:HEX_4|registradorGenerico:REG_HEX0
- 36. Parameter Settings for User Entity Instance: displayHEX:HEX_5
- 37. Parameter Settings for User Entity Instance: displayHEX:HEX_5|registradorGenerico:REG_HEX0
- 38. Parameter Settings for User Entity Instance: debounceKey:KEY_0
- 39. Parameter Settings for User Entity Instance: debounceKey:KEY_1
+  8. General Register Statistics
+  9. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 10. Parameter Settings for User Entity Instance: Top-level Entity: |relogio
+ 11. Parameter Settings for User Entity Instance: memoriaROM:ROM
+ 12. Parameter Settings for User Entity Instance: memoriaRAM:RAM
+ 13. Parameter Settings for User Entity Instance: cpu:CPU
+ 14. Parameter Settings for User Entity Instance: cpu:CPU|bancoRegistradoresArqRegMem:bancoRegistradores
+ 15. Parameter Settings for User Entity Instance: cpu:CPU|ULA:ULA
+ 16. Parameter Settings for User Entity Instance: cpu:CPU|muxGenerico2x1:MUX_CPU
+ 17. Parameter Settings for User Entity Instance: cpu:CPU|muxGenerico4x1:MUX_ENDERECO
+ 18. Parameter Settings for User Entity Instance: cpu:CPU|registradorGenerico:PC
+ 19. Parameter Settings for User Entity Instance: cpu:CPU|somaConstante:incrementaPC
+ 20. Parameter Settings for User Entity Instance: cpu:CPU|memoriaRAM:RAM_END
+ 21. Parameter Settings for User Entity Instance: cpu:CPU|muxGenerico2x1:MUX_END
+ 22. Parameter Settings for User Entity Instance: cpu:CPU|ULASomaSubEND:ULA_END
+ 23. Parameter Settings for User Entity Instance: cpu:CPU|registradorGenerico:REG_retorno
+ 24. Parameter Settings for User Entity Instance: registradorGenerico:Registrador_LEDs
+ 25. Parameter Settings for User Entity Instance: displayHEX:HEX_0
+ 26. Parameter Settings for User Entity Instance: displayHEX:HEX_0|registradorGenerico:REG_HEX0
+ 27. Parameter Settings for User Entity Instance: displayHEX:HEX_1
+ 28. Parameter Settings for User Entity Instance: displayHEX:HEX_1|registradorGenerico:REG_HEX0
+ 29. Parameter Settings for User Entity Instance: displayHEX:HEX_2
+ 30. Parameter Settings for User Entity Instance: displayHEX:HEX_2|registradorGenerico:REG_HEX0
+ 31. Parameter Settings for User Entity Instance: displayHEX:HEX_3
+ 32. Parameter Settings for User Entity Instance: displayHEX:HEX_3|registradorGenerico:REG_HEX0
+ 33. Parameter Settings for User Entity Instance: displayHEX:HEX_4
+ 34. Parameter Settings for User Entity Instance: displayHEX:HEX_4|registradorGenerico:REG_HEX0
+ 35. Parameter Settings for User Entity Instance: displayHEX:HEX_5
+ 36. Parameter Settings for User Entity Instance: displayHEX:HEX_5|registradorGenerico:REG_HEX0
+ 37. Parameter Settings for User Entity Instance: debounceKey:KEY_0
+ 38. Parameter Settings for User Entity Instance: debounceKey:KEY_1
+ 39. Parameter Settings for User Entity Instance: divisorGenerico_e_Interface:BaseTempo
  40. Parameter Settings for User Entity Instance: divisorGenerico_e_Interface:BaseTempo|divisorGenerico:baseTempo
- 41. Parameter Settings for User Entity Instance: divisorGenerico_e_Interface:BaseTempoRapida|divisorGenerico:baseTempo
- 42. Port Connectivity Checks: "divisorGenerico_e_Interface:BaseTempo|FlipFlop:registraUmSegundo"
- 43. Port Connectivity Checks: "debounceKey:KEY_0|buffer_3_state_8portas:BufferKEY"
- 44. Port Connectivity Checks: "debounceKey:KEY_0|FlipFlop:FlipFlopKey"
- 45. Port Connectivity Checks: "displayHEX:HEX_0|conversorHex7Seg:DECODER_HEX0"
- 46. Port Connectivity Checks: "displayHEX:HEX_0|registradorGenerico:REG_HEX0"
- 47. Port Connectivity Checks: "registradorGenerico:Registrador_LEDs"
- 48. Port Connectivity Checks: "FlipFlop:FlipFlopLed8"
- 49. Port Connectivity Checks: "FlipFlop:FlipFlopLed9"
- 50. Port Connectivity Checks: "decoder3x8:DecoderEnderecos"
- 51. Port Connectivity Checks: "decoder3x8:DecoderBlocoRAM"
- 52. Port Connectivity Checks: "cpu:CPU|registradorGenerico:REG_retorno"
- 53. Port Connectivity Checks: "cpu:CPU|ULASomaSubEND:ULA_END"
- 54. Port Connectivity Checks: "cpu:CPU|memoriaRAM:RAM_END"
- 55. Port Connectivity Checks: "cpu:CPU|registradorGenerico:PC"
- 56. Port Connectivity Checks: "cpu:CPU|muxGenerico4x1:MUX_ENDERECO"
- 57. Port Connectivity Checks: "cpu:CPU|FlipFlop:FlipFlopCLT"
- 58. Port Connectivity Checks: "cpu:CPU|FlipFlop:FlipFlop"
- 59. Post-Synthesis Netlist Statistics for Top Partition
- 60. Elapsed Time Per Partition
- 61. Analysis & Synthesis Messages
+ 41. Parameter Settings for User Entity Instance: divisorGenerico_e_Interface:BaseTempoRapida
+ 42. Parameter Settings for User Entity Instance: divisorGenerico_e_Interface:BaseTempoRapida|divisorGenerico:baseTempo
+ 43. Port Connectivity Checks: "divisorGenerico_e_Interface:BaseTempoRapida|FlipFlop:registraUmSegundo"
+ 44. Port Connectivity Checks: "divisorGenerico_e_Interface:BaseTempo|FlipFlop:registraUmSegundo"
+ 45. Port Connectivity Checks: "debounceKey:KEY_0|buffer_3_state_8portas:BufferKEY"
+ 46. Port Connectivity Checks: "debounceKey:KEY_0|FlipFlop:FlipFlopKey"
+ 47. Port Connectivity Checks: "displayHEX:HEX_0|conversorHex7Seg:DECODER_HEX0"
+ 48. Port Connectivity Checks: "displayHEX:HEX_0|registradorGenerico:REG_HEX0"
+ 49. Port Connectivity Checks: "registradorGenerico:Registrador_LEDs"
+ 50. Port Connectivity Checks: "FlipFlop:FlipFlopLed8"
+ 51. Port Connectivity Checks: "FlipFlop:FlipFlopLed9"
+ 52. Port Connectivity Checks: "decoder3x8:DecoderEnderecos"
+ 53. Port Connectivity Checks: "decoder3x8:DecoderBlocoRAM"
+ 54. Port Connectivity Checks: "cpu:CPU|registradorGenerico:REG_retorno"
+ 55. Port Connectivity Checks: "cpu:CPU|ULASomaSubEND:ULA_END"
+ 56. Port Connectivity Checks: "cpu:CPU|memoriaRAM:RAM_END"
+ 57. Port Connectivity Checks: "cpu:CPU|registradorGenerico:PC"
+ 58. Port Connectivity Checks: "cpu:CPU|muxGenerico4x1:MUX_ENDERECO"
+ 59. Port Connectivity Checks: "cpu:CPU|FlipFlop:FlipFlopCLT"
+ 60. Port Connectivity Checks: "cpu:CPU|FlipFlop:FlipFlop"
+ 61. Post-Synthesis Netlist Statistics for Top Partition
+ 62. Elapsed Time Per Partition
+ 63. Analysis & Synthesis Messages
 
 
 
@@ -93,13 +95,13 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Mon Oct 30 09:07:45 2023       ;
+; Analysis & Synthesis Status     ; Successful - Mon Oct 30 17:10:43 2023       ;
 ; Quartus Prime Version           ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name                   ; relogio                                     ;
 ; Top-level Entity Name           ; relogio                                     ;
 ; Family                          ; Cyclone V                                   ;
 ; Logic utilization (in ALMs)     ; N/A                                         ;
-; Total registers                 ; 697                                         ;
+; Total registers                 ; 709                                         ;
 ; Total pins                      ; 92                                          ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 0                                           ;
@@ -257,25 +259,25 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------+----------------+
 ; Resource                                    ; Usage          ;
 +---------------------------------------------+----------------+
-; Estimate of Logic utilization (ALMs needed) ; 580            ;
+; Estimate of Logic utilization (ALMs needed) ; 630            ;
 ;                                             ;                ;
-; Combinational ALUT usage for logic          ; 625            ;
-;     -- 7 input functions                    ; 18             ;
-;     -- 6 input functions                    ; 346            ;
-;     -- 5 input functions                    ; 47             ;
-;     -- 4 input functions                    ; 73             ;
-;     -- <=3 input functions                  ; 141            ;
+; Combinational ALUT usage for logic          ; 686            ;
+;     -- 7 input functions                    ; 23             ;
+;     -- 6 input functions                    ; 369            ;
+;     -- 5 input functions                    ; 123            ;
+;     -- 4 input functions                    ; 93             ;
+;     -- <=3 input functions                  ; 78             ;
 ;                                             ;                ;
-; Dedicated logic registers                   ; 697            ;
+; Dedicated logic registers                   ; 709            ;
 ;                                             ;                ;
 ; I/O pins                                    ; 92             ;
 ;                                             ;                ;
 ; Total DSP Blocks                            ; 0              ;
 ;                                             ;                ;
 ; Maximum fan-out node                        ; CLOCK_50~input ;
-; Maximum fan-out                             ; 693            ;
-; Total fan-out                               ; 5280           ;
-; Average fan-out                             ; 3.51           ;
+; Maximum fan-out                             ; 705            ;
+; Total fan-out                               ; 5823           ;
+; Average fan-out                             ; 3.69           ;
 +---------------------------------------------+----------------+
 
 
@@ -284,10 +286,10 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------------------------------------------------------------------+-----------------------------+--------------+
 ; Compilation Hierarchy Node                             ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                             ; Entity Name                 ; Library Name ;
 +--------------------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------------------------------------------------------------------+-----------------------------+--------------+
-; |relogio                                               ; 625 (36)            ; 697 (0)                   ; 0                 ; 0          ; 92   ; 0            ; |relogio                                                                        ; relogio                     ; work         ;
+; |relogio                                               ; 686 (29)            ; 709 (0)                   ; 0                 ; 0          ; 92   ; 0            ; |relogio                                                                        ; relogio                     ; work         ;
 ;    |FlipFlop:FlipFlopLed8|                             ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |relogio|FlipFlop:FlipFlopLed8                                                  ; FlipFlop                    ; work         ;
 ;    |FlipFlop:FlipFlopLed9|                             ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |relogio|FlipFlop:FlipFlopLed9                                                  ; FlipFlop                    ; work         ;
-;    |cpu:CPU|                                           ; 119 (0)             ; 118 (0)                   ; 0                 ; 0          ; 0    ; 0            ; |relogio|cpu:CPU                                                                ; cpu                         ; work         ;
+;    |cpu:CPU|                                           ; 126 (0)             ; 118 (0)                   ; 0                 ; 0          ; 0    ; 0            ; |relogio|cpu:CPU                                                                ; cpu                         ; work         ;
 ;       |FlipFlop:FlipFlopCLT|                           ; 2 (2)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |relogio|cpu:CPU|FlipFlop:FlipFlopCLT                                           ; FlipFlop                    ; work         ;
 ;       |FlipFlop:FlipFlop|                              ; 6 (6)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |relogio|cpu:CPU|FlipFlop:FlipFlop                                              ; FlipFlop                    ; work         ;
 ;       |ULA:ULA|                                        ; 29 (29)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |relogio|cpu:CPU|ULA:ULA                                                        ; ULA                         ; work         ;
@@ -295,7 +297,7 @@ https://fpgasoftware.intel.com/eula.
 ;       |bancoRegistradoresArqRegMem:bancoRegistradores| ; 12 (12)             ; 32 (32)                   ; 0                 ; 0          ; 0    ; 0            ; |relogio|cpu:CPU|bancoRegistradoresArqRegMem:bancoRegistradores                 ; bancoRegistradoresArqRegMem ; work         ;
 ;       |decoderInstrucao:DECODER|                       ; 13 (13)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |relogio|cpu:CPU|decoderInstrucao:DECODER                                       ; decoderInstrucao            ; work         ;
 ;       |memoriaRAM:RAM_END|                             ; 18 (18)             ; 72 (72)                   ; 0                 ; 0          ; 0    ; 0            ; |relogio|cpu:CPU|memoriaRAM:RAM_END                                             ; memoriaRAM                  ; work         ;
-;       |muxGenerico2x1:MUX_CPU|                         ; 13 (13)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |relogio|cpu:CPU|muxGenerico2x1:MUX_CPU                                         ; muxGenerico2x1              ; work         ;
+;       |muxGenerico2x1:MUX_CPU|                         ; 20 (20)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |relogio|cpu:CPU|muxGenerico2x1:MUX_CPU                                         ; muxGenerico2x1              ; work         ;
 ;       |muxGenerico2x1:MUX_END|                         ; 3 (3)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |relogio|cpu:CPU|muxGenerico2x1:MUX_END                                         ; muxGenerico2x1              ; work         ;
 ;       |muxGenerico4x1:MUX_ENDERECO|                    ; 11 (11)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |relogio|cpu:CPU|muxGenerico4x1:MUX_ENDERECO                                    ; muxGenerico4x1              ; work         ;
 ;       |registradorGenerico:PC|                         ; 0 (0)               ; 9 (9)                     ; 0                 ; 0          ; 0    ; 0            ; |relogio|cpu:CPU|registradorGenerico:PC                                         ; registradorGenerico         ; work         ;
@@ -325,51 +327,17 @@ https://fpgasoftware.intel.com/eula.
 ;    |displayHEX:HEX_5|                                  ; 7 (0)               ; 4 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |relogio|displayHEX:HEX_5                                                       ; displayHEX                  ; work         ;
 ;       |conversorHex7Seg:DECODER_HEX0|                  ; 7 (7)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |relogio|displayHEX:HEX_5|conversorHex7Seg:DECODER_HEX0                         ; conversorHex7Seg            ; work         ;
 ;       |registradorGenerico:REG_HEX0|                   ; 0 (0)               ; 4 (4)                     ; 0                 ; 0          ; 0    ; 0            ; |relogio|displayHEX:HEX_5|registradorGenerico:REG_HEX0                          ; registradorGenerico         ; work         ;
-;    |divisorGenerico_e_Interface:BaseTempoRapida|       ; 26 (0)              ; 27 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |relogio|divisorGenerico_e_Interface:BaseTempoRapida                            ; divisorGenerico_e_Interface ; work         ;
+;    |divisorGenerico_e_Interface:BaseTempoRapida|       ; 16 (0)              ; 14 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |relogio|divisorGenerico_e_Interface:BaseTempoRapida                            ; divisorGenerico_e_Interface ; work         ;
 ;       |FlipFlop:registraUmSegundo|                     ; 0 (0)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |relogio|divisorGenerico_e_Interface:BaseTempoRapida|FlipFlop:registraUmSegundo ; FlipFlop                    ; work         ;
-;       |divisorGenerico:baseTempo|                      ; 26 (26)             ; 26 (26)                   ; 0                 ; 0          ; 0    ; 0            ; |relogio|divisorGenerico_e_Interface:BaseTempoRapida|divisorGenerico:baseTempo  ; divisorGenerico             ; work         ;
-;    |divisorGenerico_e_Interface:BaseTempo|             ; 7 (0)               ; 2 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |relogio|divisorGenerico_e_Interface:BaseTempo                                  ; divisorGenerico_e_Interface ; work         ;
+;       |divisorGenerico:baseTempo|                      ; 16 (16)             ; 13 (13)                   ; 0                 ; 0          ; 0    ; 0            ; |relogio|divisorGenerico_e_Interface:BaseTempoRapida|divisorGenerico:baseTempo  ; divisorGenerico             ; work         ;
+;    |divisorGenerico_e_Interface:BaseTempo|             ; 33 (0)              ; 27 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |relogio|divisorGenerico_e_Interface:BaseTempo                                  ; divisorGenerico_e_Interface ; work         ;
 ;       |FlipFlop:registraUmSegundo|                     ; 0 (0)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |relogio|divisorGenerico_e_Interface:BaseTempo|FlipFlop:registraUmSegundo       ; FlipFlop                    ; work         ;
-;       |divisorGenerico:baseTempo|                      ; 7 (7)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |relogio|divisorGenerico_e_Interface:BaseTempo|divisorGenerico:baseTempo        ; divisorGenerico             ; work         ;
-;    |memoriaRAM:RAM|                                    ; 298 (298)           ; 512 (512)                 ; 0                 ; 0          ; 0    ; 0            ; |relogio|memoriaRAM:RAM                                                         ; memoriaRAM                  ; work         ;
-;    |memoriaROM:ROM|                                    ; 91 (91)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |relogio|memoriaROM:ROM                                                         ; memoriaROM                  ; work         ;
+;       |divisorGenerico:baseTempo|                      ; 33 (33)             ; 26 (26)                   ; 0                 ; 0          ; 0    ; 0            ; |relogio|divisorGenerico_e_Interface:BaseTempo|divisorGenerico:baseTempo        ; divisorGenerico             ; work         ;
+;    |memoriaRAM:RAM|                                    ; 297 (297)           ; 512 (512)                 ; 0                 ; 0          ; 0    ; 0            ; |relogio|memoriaRAM:RAM                                                         ; memoriaRAM                  ; work         ;
+;    |memoriaROM:ROM|                                    ; 137 (137)           ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |relogio|memoriaROM:ROM                                                         ; memoriaROM                  ; work         ;
 ;    |registradorGenerico:Registrador_LEDs|              ; 0 (0)               ; 8 (8)                     ; 0                 ; 0          ; 0    ; 0            ; |relogio|registradorGenerico:Registrador_LEDs                                   ; registradorGenerico         ; work         ;
 +--------------------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------------------------------------------------------------------+-----------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
-
-
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Registers Removed During Synthesis                                                                                                                                            ;
-+------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------+
-; Register name                                                                ; Reason for Removal                                                                             ;
-+------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------+
-; divisorGenerico_e_Interface:BaseTempo|divisorGenerico:baseTempo|contador[23] ; Merged with divisorGenerico_e_Interface:BaseTempoRapida|divisorGenerico:baseTempo|contador[23] ;
-; divisorGenerico_e_Interface:BaseTempo|divisorGenerico:baseTempo|contador[17] ; Merged with divisorGenerico_e_Interface:BaseTempoRapida|divisorGenerico:baseTempo|contador[17] ;
-; divisorGenerico_e_Interface:BaseTempo|divisorGenerico:baseTempo|contador[15] ; Merged with divisorGenerico_e_Interface:BaseTempoRapida|divisorGenerico:baseTempo|contador[15] ;
-; divisorGenerico_e_Interface:BaseTempo|divisorGenerico:baseTempo|contador[10] ; Merged with divisorGenerico_e_Interface:BaseTempoRapida|divisorGenerico:baseTempo|contador[10] ;
-; divisorGenerico_e_Interface:BaseTempo|divisorGenerico:baseTempo|contador[9]  ; Merged with divisorGenerico_e_Interface:BaseTempoRapida|divisorGenerico:baseTempo|contador[9]  ;
-; divisorGenerico_e_Interface:BaseTempo|divisorGenerico:baseTempo|contador[8]  ; Merged with divisorGenerico_e_Interface:BaseTempoRapida|divisorGenerico:baseTempo|contador[8]  ;
-; divisorGenerico_e_Interface:BaseTempo|divisorGenerico:baseTempo|contador[7]  ; Merged with divisorGenerico_e_Interface:BaseTempoRapida|divisorGenerico:baseTempo|contador[7]  ;
-; divisorGenerico_e_Interface:BaseTempo|divisorGenerico:baseTempo|contador[5]  ; Merged with divisorGenerico_e_Interface:BaseTempoRapida|divisorGenerico:baseTempo|contador[5]  ;
-; divisorGenerico_e_Interface:BaseTempo|divisorGenerico:baseTempo|contador[4]  ; Merged with divisorGenerico_e_Interface:BaseTempoRapida|divisorGenerico:baseTempo|contador[4]  ;
-; divisorGenerico_e_Interface:BaseTempo|divisorGenerico:baseTempo|contador[3]  ; Merged with divisorGenerico_e_Interface:BaseTempoRapida|divisorGenerico:baseTempo|contador[3]  ;
-; divisorGenerico_e_Interface:BaseTempo|divisorGenerico:baseTempo|contador[2]  ; Merged with divisorGenerico_e_Interface:BaseTempoRapida|divisorGenerico:baseTempo|contador[2]  ;
-; divisorGenerico_e_Interface:BaseTempo|divisorGenerico:baseTempo|contador[1]  ; Merged with divisorGenerico_e_Interface:BaseTempoRapida|divisorGenerico:baseTempo|contador[1]  ;
-; divisorGenerico_e_Interface:BaseTempo|divisorGenerico:baseTempo|contador[0]  ; Merged with divisorGenerico_e_Interface:BaseTempoRapida|divisorGenerico:baseTempo|contador[0]  ;
-; divisorGenerico_e_Interface:BaseTempo|divisorGenerico:baseTempo|contador[24] ; Merged with divisorGenerico_e_Interface:BaseTempoRapida|divisorGenerico:baseTempo|contador[24] ;
-; divisorGenerico_e_Interface:BaseTempo|divisorGenerico:baseTempo|contador[22] ; Merged with divisorGenerico_e_Interface:BaseTempoRapida|divisorGenerico:baseTempo|contador[22] ;
-; divisorGenerico_e_Interface:BaseTempo|divisorGenerico:baseTempo|contador[21] ; Merged with divisorGenerico_e_Interface:BaseTempoRapida|divisorGenerico:baseTempo|contador[21] ;
-; divisorGenerico_e_Interface:BaseTempo|divisorGenerico:baseTempo|contador[20] ; Merged with divisorGenerico_e_Interface:BaseTempoRapida|divisorGenerico:baseTempo|contador[20] ;
-; divisorGenerico_e_Interface:BaseTempo|divisorGenerico:baseTempo|contador[19] ; Merged with divisorGenerico_e_Interface:BaseTempoRapida|divisorGenerico:baseTempo|contador[19] ;
-; divisorGenerico_e_Interface:BaseTempo|divisorGenerico:baseTempo|contador[18] ; Merged with divisorGenerico_e_Interface:BaseTempoRapida|divisorGenerico:baseTempo|contador[18] ;
-; divisorGenerico_e_Interface:BaseTempo|divisorGenerico:baseTempo|contador[16] ; Merged with divisorGenerico_e_Interface:BaseTempoRapida|divisorGenerico:baseTempo|contador[16] ;
-; divisorGenerico_e_Interface:BaseTempo|divisorGenerico:baseTempo|contador[14] ; Merged with divisorGenerico_e_Interface:BaseTempoRapida|divisorGenerico:baseTempo|contador[14] ;
-; divisorGenerico_e_Interface:BaseTempo|divisorGenerico:baseTempo|contador[13] ; Merged with divisorGenerico_e_Interface:BaseTempoRapida|divisorGenerico:baseTempo|contador[13] ;
-; divisorGenerico_e_Interface:BaseTempo|divisorGenerico:baseTempo|contador[12] ; Merged with divisorGenerico_e_Interface:BaseTempoRapida|divisorGenerico:baseTempo|contador[12] ;
-; divisorGenerico_e_Interface:BaseTempo|divisorGenerico:baseTempo|contador[11] ; Merged with divisorGenerico_e_Interface:BaseTempoRapida|divisorGenerico:baseTempo|contador[11] ;
-; divisorGenerico_e_Interface:BaseTempo|divisorGenerico:baseTempo|contador[6]  ; Merged with divisorGenerico_e_Interface:BaseTempoRapida|divisorGenerico:baseTempo|contador[6]  ;
-; Total Number of Removed Registers = 25                                       ;                                                                                                ;
-+------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------+
 
 
 +------------------------------------------------------+
@@ -377,12 +345,12 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 697   ;
-; Number of registers using Synchronous Clear  ; 25    ;
+; Total registers                              ; 709   ;
+; Number of registers using Synchronous Clear  ; 37    ;
 ; Number of registers using Synchronous Load   ; 0     ;
 ; Number of registers using Asynchronous Clear ; 13    ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 653   ;
+; Number of registers using Clock Enable       ; 651   ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -392,8 +360,8 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                      ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------+
-; 4:1                ; 9 bits    ; 18 LEs        ; 18 LEs               ; 0 LEs                  ; Yes        ; |relogio|cpu:CPU|registradorGenerico:PC|DOUT[3] ;
-; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |relogio|cpu:CPU|ULA:ULA|Saida[1]               ;
+; 4:1                ; 9 bits    ; 18 LEs        ; 18 LEs               ; 0 LEs                  ; Yes        ; |relogio|cpu:CPU|registradorGenerico:PC|DOUT[4] ;
+; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |relogio|cpu:CPU|ULA:ULA|Saida[0]               ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------+
 
 
@@ -706,6 +674,16 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
++------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: divisorGenerico_e_Interface:BaseTempo ;
++----------------+----------+--------------------------------------------------------+
+; Parameter Name ; Value    ; Type                                                   ;
++----------------+----------+--------------------------------------------------------+
+; tempo          ; 25000000 ; Signed Integer                                         ;
++----------------+----------+--------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
 +--------------------------------------------------------------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: divisorGenerico_e_Interface:BaseTempo|divisorGenerico:baseTempo ;
 +----------------+----------+----------------------------------------------------------------------------------+
@@ -716,14 +694,34 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
++------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: divisorGenerico_e_Interface:BaseTempoRapida ;
++----------------+-------+-----------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                            ;
++----------------+-------+-----------------------------------------------------------------+
+; tempo          ; 2500  ; Signed Integer                                                  ;
++----------------+-------+-----------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
 +--------------------------------------------------------------------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: divisorGenerico_e_Interface:BaseTempoRapida|divisorGenerico:baseTempo ;
-+----------------+----------+----------------------------------------------------------------------------------------+
-; Parameter Name ; Value    ; Type                                                                                   ;
-+----------------+----------+----------------------------------------------------------------------------------------+
-; divisor        ; 25000000 ; Signed Integer                                                                         ;
-+----------------+----------+----------------------------------------------------------------------------------------+
++----------------+-------+-------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                      ;
++----------------+-------+-------------------------------------------------------------------------------------------+
+; divisor        ; 2500  ; Signed Integer                                                                            ;
++----------------+-------+-------------------------------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "divisorGenerico_e_Interface:BaseTempoRapida|FlipFlop:registraUmSegundo" ;
++--------+-------+----------+------------------------------------------------------------------------+
+; Port   ; Type  ; Severity ; Details                                                                ;
++--------+-------+----------+------------------------------------------------------------------------+
+; din    ; Input ; Info     ; Stuck at VCC                                                           ;
+; enable ; Input ; Info     ; Stuck at VCC                                                           ;
++--------+-------+----------+------------------------------------------------------------------------+
 
 
 +----------------------------------------------------------------------------------------------+
@@ -890,29 +888,29 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; arriav_ff             ; 697                         ;
+; arriav_ff             ; 709                         ;
 ;     CLR               ; 13                          ;
-;     ENA               ; 653                         ;
-;     SCLR              ; 25                          ;
-;     plain             ; 6                           ;
-; arriav_lcell_comb     ; 625                         ;
-;     arith             ; 43                          ;
-;         1 data inputs ; 34                          ;
+;     ENA               ; 651                         ;
+;     SCLR              ; 37                          ;
+;     plain             ; 8                           ;
+; arriav_lcell_comb     ; 686                         ;
+;     arith             ; 55                          ;
+;         1 data inputs ; 46                          ;
 ;         3 data inputs ; 1                           ;
 ;         5 data inputs ; 8                           ;
-;     extend            ; 18                          ;
-;         7 data inputs ; 18                          ;
-;     normal            ; 564                         ;
-;         1 data inputs ; 5                           ;
-;         2 data inputs ; 83                          ;
-;         3 data inputs ; 18                          ;
-;         4 data inputs ; 73                          ;
-;         5 data inputs ; 39                          ;
-;         6 data inputs ; 346                         ;
+;     extend            ; 23                          ;
+;         7 data inputs ; 23                          ;
+;     normal            ; 608                         ;
+;         1 data inputs ; 3                           ;
+;         2 data inputs ; 9                           ;
+;         3 data inputs ; 19                          ;
+;         4 data inputs ; 93                          ;
+;         5 data inputs ; 115                         ;
+;         6 data inputs ; 369                         ;
 ; boundary_port         ; 92                          ;
 ;                       ;                             ;
 ; Max LUT depth         ; 10.70                       ;
-; Average LUT depth     ; 6.68                        ;
+; Average LUT depth     ; 6.71                        ;
 +-----------------------+-----------------------------+
 
 
@@ -921,7 +919,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:02     ;
+; Top            ; 00:00:04     ;
 +----------------+--------------+
 
 
@@ -931,7 +929,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
-    Info: Processing started: Mon Oct 30 09:07:33 2023
+    Info: Processing started: Mon Oct 30 17:10:19 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off relogio -c relogio
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 2 design units, including 1 entities, in source file relogio.vhd
@@ -999,7 +997,7 @@ Info (12021): Found 2 design units, including 1 entities, in source file output_
     Info (12022): Found design unit 1: ULASomaSubEND-comportamento File: C:/descomp/Proj_relogio/output_files/ULASomaSubEND.vhd Line: 14
     Info (12023): Found entity 1: ULASomaSubEND File: C:/descomp/Proj_relogio/output_files/ULASomaSubEND.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file divisorgenerico_e_interface.vhd
-    Info (12022): Found design unit 1: divisorGenerico_e_Interface-interface File: C:/descomp/Proj_relogio/divisorGenerico_e_Interface.vhd Line: 13
+    Info (12022): Found design unit 1: divisorGenerico_e_Interface-interface File: C:/descomp/Proj_relogio/divisorGenerico_e_Interface.vhd Line: 16
     Info (12023): Found entity 1: divisorGenerico_e_Interface File: C:/descomp/Proj_relogio/divisorGenerico_e_Interface.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file divisorgenerico.vhd
     Info (12022): Found design unit 1: divisorGenerico-divInteiro File: C:/descomp/Proj_relogio/divisorGenerico.vhd Line: 15
@@ -1034,7 +1032,9 @@ Info (12128): Elaborating entity "buffer_3_state_1porta" for hierarchy "buffer_3
 Info (12128): Elaborating entity "debounceKey" for hierarchy "debounceKey:KEY_0" File: C:/descomp/Proj_relogio/relogio.vhd Line: 233
 Info (12129): Elaborating entity "edgeDetector" using architecture "A:bordasubida" for hierarchy "debounceKey:KEY_0|edgeDetector:detectorkey" File: C:/descomp/Proj_relogio/debounceKey.vhd Line: 30
 Info (12128): Elaborating entity "divisorGenerico_e_Interface" for hierarchy "divisorGenerico_e_Interface:BaseTempo" File: C:/descomp/Proj_relogio/relogio.vhd Line: 250
-Info (12128): Elaborating entity "divisorGenerico" for hierarchy "divisorGenerico_e_Interface:BaseTempo|divisorGenerico:baseTempo" File: C:/descomp/Proj_relogio/divisorGenerico_e_Interface.vhd Line: 18
+Info (12128): Elaborating entity "divisorGenerico" for hierarchy "divisorGenerico_e_Interface:BaseTempo|divisorGenerico:baseTempo" File: C:/descomp/Proj_relogio/divisorGenerico_e_Interface.vhd Line: 21
+Info (12128): Elaborating entity "divisorGenerico_e_Interface" for hierarchy "divisorGenerico_e_Interface:BaseTempoRapida" File: C:/descomp/Proj_relogio/relogio.vhd Line: 259
+Info (12128): Elaborating entity "divisorGenerico" for hierarchy "divisorGenerico_e_Interface:BaseTempoRapida|divisorGenerico:baseTempo" File: C:/descomp/Proj_relogio/divisorGenerico_e_Interface.vhd Line: 21
 Info (276014): Found 3 instances of uninferred RAM logic
     Info (276007): RAM logic "cpu:CPU|memoriaRAM:RAM_END|ram" is uninferred due to asynchronous read logic File: C:/descomp/Proj_relogio/memoriaRAM.vhd Line: 27
     Info (276004): RAM logic "cpu:CPU|bancoRegistradoresArqRegMem:bancoRegistradores|registrador" is uninferred due to inappropriate RAM size File: C:/descomp/Proj_relogio/bancoRegistradoresArqRegMem.vhd Line: 29
@@ -1060,14 +1060,14 @@ Warning (13046): Tri-state node(s) do not directly drive top-level pin(s)
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 1369 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 1430 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 16 input pins
     Info (21059): Implemented 76 output pins
-    Info (21061): Implemented 1277 logic cells
+    Info (21061): Implemented 1338 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 18 warnings
     Info: Peak virtual memory: 4852 megabytes
-    Info: Processing ended: Mon Oct 30 09:07:45 2023
-    Info: Elapsed time: 00:00:12
-    Info: Total CPU time (on all processors): 00:00:24
+    Info: Processing ended: Mon Oct 30 17:10:43 2023
+    Info: Elapsed time: 00:00:24
+    Info: Total CPU time (on all processors): 00:00:49
 
 
