@@ -29,7 +29,8 @@ architecture comportamento of ULA is
       Saida <= soma when (seletor = "001")else
 		subtracao when (seletor = "000") else
 		pass when (seletor = "010") else
-		op_and when (seletor = "011");
+		op_and when (seletor = "011") else
+		"00000000";
 		
 		saida_flag <= not (Saida(7) or Saida(6) or Saida(5) or Saida(4) or Saida(3) or Saida(2) or Saida(1) or Saida(0));
 		saida_clt <= '1' when (Saida(7) = '1') else '0';

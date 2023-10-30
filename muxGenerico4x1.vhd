@@ -16,6 +16,7 @@ architecture comportamento of muxGenerico4x1 is
 	saida_MUX <= entradaA_MUX when (seletor_MUX = "00") else
 					 entradaB_MUX when (seletor_MUX = "01") else
 					 entradaC_MUX when (seletor_MUX = "10") else
-					 entradaD_MUX when (seletor_MUX = "11");
+					 entradaD_MUX when (seletor_MUX = "11") else
+					 "000000000";
 
 end architecture;

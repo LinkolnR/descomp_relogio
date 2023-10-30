@@ -18,7 +18,6 @@ entity cpu is
 	 Data_OUT: out std_logic_vector(larguraDados-1 downto 0);
 	 Rd: out std_logic;
 	 Wr: out std_logic;
-	 Saida_PC_topLevel: out std_logic_vector(larguraEnderecos-1 downto 0);
 	 Data_Address: out std_logic_vector(larguraEnderecos-1 downto 0)
 );
 end entity;
@@ -50,6 +49,8 @@ architecture arquitetura of cpu is
 	signal entrada0_mux_enderecos: std_logic_vector(larguraEnderecos-1 downto 0);
 	signal entrada1_mux_enderecos: std_logic_vector(larguraEnderecos-1 downto 0);
 	signal entrada2_mux_enderecos: std_logic_vector(larguraEnderecos-1 downto 0);
+	signal entrada_mux_end_tri_state: std_logic_vector(larguraEnderecos-1 downto 0);
+	
 	
 	-- Signal PC
 	signal endereco_rom: std_logic_vector(larguraEnderecos-1 downto 0);
@@ -162,6 +163,7 @@ architecture arquitetura of cpu is
                   entradaB_MUX =>  saida_ula_end,
                   seletor_MUX => SelMUX_end,
                   saida_MUX => Saida_mux_end);
+						
 						
 	ULA_END: entity work.ULASomaSubEND  generic map(larguraDados => 3)
 			port map (	entradaA => Saida_END,

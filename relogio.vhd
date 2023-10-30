@@ -41,7 +41,7 @@ architecture arquitetura of relogio is
 	signal rd_ram, wr_ram: std_logic;
 	signal saida_da_ula: std_logic_vector(larguraDados-1 downto 0);
 	signal entrada_dados_cpu: std_logic_vector(larguraDados-1 downto 0);
-	signal program_counter: std_logic_vector(larguraEnderecos-1 downto 0);
+
 	
 	-- signal decoder de blocos da RAM
 	signal entrada_bloco_ram: std_logic_vector(2 downto 0);
@@ -97,7 +97,13 @@ architecture arquitetura of relogio is
 	signal habilita_key2: std_logic;
 	signal habilita_key3: std_logic;
 	signal habilita_fpga_reset: std_logic;
+	
+	-- signal para as bases de tempo 
+	signal habilita_base_tempo,habilita_base_tempo_rapido : std_logic; 
+	signal limpa_leitura_tempo,limpa_leitura_tempo_rapido : std_logic;
+	signal saida_tempo, saida_tempo_rapido: std_logic;
 
+	
 begin
 /*
 	detectorSub0: work.edgeDetector(bordaSubida)
@@ -237,6 +243,24 @@ CLK <= CLOCK_50;
 								habilita_key => habilita_key1,
 								CLK => CLK,
 								saida => entrada_dados_cpu);
+								
+								
+								
+	-- Bases de tempo para o Relógio
+	BaseTempo : entity work.divisorGenerico_e_Interface  -- 25M vai dividir por 50M e temos a saida de um segundo
+              port map (clk => CLK,
+              habilitaLeitura => habilita_base_tempo,
+              limpaLeitura => limpa_leitura_tempo,
+              leituraUmSegundo => entrada_dados_cpu(0));
+				  
+				  
+				 
+					 
+	BaseTempoRapida : entity work.divisorGenerico_e_Interface  -- Uma base de tempo mais rápida
+              port map (clk => CLK,
+              habilitaLeitura => habilita_base_tempo_rapido,
+              limpaLeitura => limpa_leitura_tempo_rapido,
+              leituraUmSegundo => entrada_dados_cpu(0));
 
 
 
@@ -286,7 +310,7 @@ habilita_SW0a7 <= base_habilita_SW and saida_bloco_enderecos(0);
 habilita_SW8 <= base_habilita_SW and saida_bloco_enderecos(1);
 habilita_SW9 <= base_habilita_SW and saida_bloco_enderecos(2);
 
--- Variais para KEYs
+-- Variaveis para KEYs
 -- 511 KEY0
 limpa_leitura_key0 <= CPU_ram_address(8) and CPU_ram_address(7) and CPU_ram_address(6) and CPU_ram_address(5) and CPU_ram_address(4) and CPU_ram_address(3) and CPU_ram_address(2) and CPU_ram_address(1) and CPU_ram_address(0) and wr_ram;
 -- 510 KEY1 
@@ -299,6 +323,15 @@ habilita_key2 <= base_habilita_key and saida_bloco_enderecos(2);
 habilita_key3 <= base_habilita_key and saida_bloco_enderecos(3);
 habilita_fpga_reset <= base_habilita_key and saida_bloco_enderecos(4);
 
+-- Variaveis para as Bases de tempo
+-- 509 BASE TEMPO
+limpa_leitura_tempo <= CPU_ram_address(8) and CPU_ram_address(7) and CPU_ram_address(6) and CPU_ram_address(5) and CPU_ram_address(4) and CPU_ram_address(3) and CPU_ram_address(2) and (not CPU_ram_address(1)) and CPU_ram_address(0) and wr_ram;
+-- 508 BASE TEMPO RAPIDO
+limpa_leitura_tempo_rapido <= CPU_ram_address(8) and CPU_ram_address(7) and CPU_ram_address(6) and CPU_ram_address(5) and CPU_ram_address(4) and CPU_ram_address(3) and CPU_ram_address(2) and (not CPU_ram_address(1)) and (not CPU_ram_address(0)) and wr_ram;
+-- habilita base tempo
+habilita_base_tempo <= base_habilita_key and saida_bloco_enderecos(5); -- 357 
+habilita_base_tempo_rapido <= base_habilita_key and saida_bloco_enderecos(6); -- 358
+
 PalavraControle  <= instrucao_rom;
-ProgramCounter   <= program_counter;
+ProgramCounter   <= CPU_rom_address;
 end architecture;
