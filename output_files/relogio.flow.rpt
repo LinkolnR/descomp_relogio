@@ -1,5 +1,5 @@
 Flow report for relogio
-Mon Oct 30 17:12:48 2023
+Mon Oct 30 19:55:44 2023
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -41,15 +41,15 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Mon Oct 30 17:12:34 2023       ;
+; Flow Status                     ; Successful - Mon Oct 30 19:55:38 2023       ;
 ; Quartus Prime Version           ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name                   ; relogio                                     ;
 ; Top-level Entity Name           ; relogio                                     ;
 ; Family                          ; Cyclone V                                   ;
 ; Device                          ; 5CEBA4F23C7                                 ;
 ; Timing Models                   ; Final                                       ;
-; Logic utilization (in ALMs)     ; 515 / 18,480 ( 3 % )                        ;
-; Total registers                 ; 726                                         ;
+; Logic utilization (in ALMs)     ; 529 / 18,480 ( 3 % )                        ;
+; Total registers                 ; 725                                         ;
 ; Total pins                      ; 92 / 224 ( 41 % )                           ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 0 / 3,153,920 ( 0 % )                       ;
@@ -68,7 +68,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 10/30/2023 17:10:20 ;
+; Start date & time ; 10/30/2023 19:54:41 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; relogio             ;
 +-------------------+---------------------+
@@ -79,7 +79,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 2546599643604.169869662012036          ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 925256143270.169870648110936           ; --            ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --          ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --          ; --         ;
 ; NUM_PARALLEL_PROCESSORS             ; All                                    ; --            ; --          ; --         ;
@@ -99,11 +99,11 @@ https://fpgasoftware.intel.com/eula.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:24     ; 1.0                     ; 4852 MB             ; 00:00:49                           ;
-; Fitter               ; 00:01:41     ; 1.2                     ; 6274 MB             ; 00:02:50                           ;
-; Assembler            ; 00:00:07     ; 1.0                     ; 4834 MB             ; 00:00:06                           ;
-; Timing Analyzer      ; 00:00:13     ; 1.6                     ; 5096 MB             ; 00:00:18                           ;
-; Total                ; 00:02:25     ; --                      ; --                  ; 00:04:03                           ;
+; Analysis & Synthesis ; 00:00:09     ; 1.0                     ; 4856 MB             ; 00:00:08                           ;
+; Fitter               ; 00:00:42     ; 1.1                     ; 6284 MB             ; 00:00:45                           ;
+; Assembler            ; 00:00:03     ; 1.0                     ; 4835 MB             ; 00:00:02                           ;
+; Timing Analyzer      ; 00:00:06     ; 1.6                     ; 5097 MB             ; 00:00:04                           ;
+; Total                ; 00:01:00     ; --                      ; --                  ; 00:00:59                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -112,10 +112,10 @@ https://fpgasoftware.intel.com/eula.
 +----------------------+------------------+------------+------------+----------------+
 ; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
 +----------------------+------------------+------------+------------+----------------+
-; Analysis & Synthesis ; DESKTOP-3FR9M9F  ; Windows 10 ; 10.0       ; x86_64         ;
-; Fitter               ; DESKTOP-3FR9M9F  ; Windows 10 ; 10.0       ; x86_64         ;
-; Assembler            ; DESKTOP-3FR9M9F  ; Windows 10 ; 10.0       ; x86_64         ;
-; Timing Analyzer      ; DESKTOP-3FR9M9F  ; Windows 10 ; 10.0       ; x86_64         ;
+; Analysis & Synthesis ; GiovanaDell      ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter               ; GiovanaDell      ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler            ; GiovanaDell      ; Windows 10 ; 10.0       ; x86_64         ;
+; Timing Analyzer      ; GiovanaDell      ; Windows 10 ; 10.0       ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
 
 

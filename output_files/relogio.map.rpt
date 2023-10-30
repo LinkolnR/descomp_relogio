@@ -1,5 +1,5 @@
 Analysis & Synthesis report for relogio
-Mon Oct 30 17:10:43 2023
+Mon Oct 30 19:54:51 2023
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -95,7 +95,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Mon Oct 30 17:10:43 2023       ;
+; Analysis & Synthesis Status     ; Successful - Mon Oct 30 19:54:51 2023       ;
 ; Quartus Prime Version           ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name                   ; relogio                                     ;
 ; Top-level Entity Name           ; relogio                                     ;
@@ -223,35 +223,35 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                   ;
-+----------------------------------+-----------------+-----------------+---------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                            ; Library ;
-+----------------------------------+-----------------+-----------------+---------------------------------------------------------+---------+
-; relogio.vhd                      ; yes             ; User VHDL File  ; C:/descomp/Proj_relogio/relogio.vhd                     ;         ;
-; cpu.vhd                          ; yes             ; User VHDL File  ; C:/descomp/Proj_relogio/cpu.vhd                         ;         ;
-; bancoRegistradoresArqRegMem.vhd  ; yes             ; User VHDL File  ; C:/descomp/Proj_relogio/bancoRegistradoresArqRegMem.vhd ;         ;
-; ULA.vhd                          ; yes             ; User VHDL File  ; C:/descomp/Proj_relogio/ULA.vhd                         ;         ;
-; registradorGenerico.vhd          ; yes             ; User VHDL File  ; C:/descomp/Proj_relogio/registradorGenerico.vhd         ;         ;
-; FlipFlop.vhd                     ; yes             ; User VHDL File  ; C:/descomp/Proj_relogio/FlipFlop.vhd                    ;         ;
-; MUX2X1.vhd                       ; yes             ; User VHDL File  ; C:/descomp/Proj_relogio/MUX2X1.vhd                      ;         ;
-; muxGenerico4x1.vhd               ; yes             ; User VHDL File  ; C:/descomp/Proj_relogio/muxGenerico4x1.vhd              ;         ;
-; somaConstante.vhd                ; yes             ; User VHDL File  ; C:/descomp/Proj_relogio/somaConstante.vhd               ;         ;
-; LogicaDesvio1.vhd                ; yes             ; User VHDL File  ; C:/descomp/Proj_relogio/LogicaDesvio1.vhd               ;         ;
-; decoderInstrucao.vhd             ; yes             ; User VHDL File  ; C:/descomp/Proj_relogio/decoderInstrucao.vhd            ;         ;
-; memoriaROM.vhd                   ; yes             ; User VHDL File  ; C:/descomp/Proj_relogio/memoriaROM.vhd                  ;         ;
-; memoriaRAM.vhd                   ; yes             ; User VHDL File  ; C:/descomp/Proj_relogio/memoriaRAM.vhd                  ;         ;
-; edgeDetector.vhd                 ; yes             ; User VHDL File  ; C:/descomp/Proj_relogio/edgeDetector.vhd                ;         ;
-; decoder3x8.vhd                   ; yes             ; User VHDL File  ; C:/descomp/Proj_relogio/decoder3x8.vhd                  ;         ;
-; conversorHex7Seg.vhd             ; yes             ; User VHDL File  ; C:/descomp/Proj_relogio/conversorHex7Seg.vhd            ;         ;
-; displayHEX.vhd                   ; yes             ; User VHDL File  ; C:/descomp/Proj_relogio/displayHEX.vhd                  ;         ;
-; buffer_3_state_1porta.vhd        ; yes             ; User VHDL File  ; C:/descomp/Proj_relogio/buffer_3_state_1porta.vhd       ;         ;
-; buffer_3_state_8portas.vhd       ; yes             ; User VHDL File  ; C:/descomp/Proj_relogio/buffer_3_state_8portas.vhd      ;         ;
-; debounceKey.vhd                  ; yes             ; User VHDL File  ; C:/descomp/Proj_relogio/debounceKey.vhd                 ;         ;
-; output_files/ULASomaSubEND.vhd   ; yes             ; User VHDL File  ; C:/descomp/Proj_relogio/output_files/ULASomaSubEND.vhd  ;         ;
-; divisorGenerico_e_Interface.vhd  ; yes             ; User VHDL File  ; C:/descomp/Proj_relogio/divisorGenerico_e_Interface.vhd ;         ;
-; divisorGenerico.vhd              ; yes             ; User VHDL File  ; C:/descomp/Proj_relogio/divisorGenerico.vhd             ;         ;
-+----------------------------------+-----------------+-----------------+---------------------------------------------------------+---------+
++---------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                      ;
++----------------------------------+-----------------+-----------------+------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                               ; Library ;
++----------------------------------+-----------------+-----------------+------------------------------------------------------------+---------+
+; relogio.vhd                      ; yes             ; User VHDL File  ; C:/DESCOMP/descomp_relogio/relogio.vhd                     ;         ;
+; cpu.vhd                          ; yes             ; User VHDL File  ; C:/DESCOMP/descomp_relogio/cpu.vhd                         ;         ;
+; bancoRegistradoresArqRegMem.vhd  ; yes             ; User VHDL File  ; C:/DESCOMP/descomp_relogio/bancoRegistradoresArqRegMem.vhd ;         ;
+; ULA.vhd                          ; yes             ; User VHDL File  ; C:/DESCOMP/descomp_relogio/ULA.vhd                         ;         ;
+; registradorGenerico.vhd          ; yes             ; User VHDL File  ; C:/DESCOMP/descomp_relogio/registradorGenerico.vhd         ;         ;
+; FlipFlop.vhd                     ; yes             ; User VHDL File  ; C:/DESCOMP/descomp_relogio/FlipFlop.vhd                    ;         ;
+; MUX2X1.vhd                       ; yes             ; User VHDL File  ; C:/DESCOMP/descomp_relogio/MUX2X1.vhd                      ;         ;
+; muxGenerico4x1.vhd               ; yes             ; User VHDL File  ; C:/DESCOMP/descomp_relogio/muxGenerico4x1.vhd              ;         ;
+; somaConstante.vhd                ; yes             ; User VHDL File  ; C:/DESCOMP/descomp_relogio/somaConstante.vhd               ;         ;
+; LogicaDesvio1.vhd                ; yes             ; User VHDL File  ; C:/DESCOMP/descomp_relogio/LogicaDesvio1.vhd               ;         ;
+; decoderInstrucao.vhd             ; yes             ; User VHDL File  ; C:/DESCOMP/descomp_relogio/decoderInstrucao.vhd            ;         ;
+; memoriaROM.vhd                   ; yes             ; User VHDL File  ; C:/DESCOMP/descomp_relogio/memoriaROM.vhd                  ;         ;
+; memoriaRAM.vhd                   ; yes             ; User VHDL File  ; C:/DESCOMP/descomp_relogio/memoriaRAM.vhd                  ;         ;
+; edgeDetector.vhd                 ; yes             ; User VHDL File  ; C:/DESCOMP/descomp_relogio/edgeDetector.vhd                ;         ;
+; decoder3x8.vhd                   ; yes             ; User VHDL File  ; C:/DESCOMP/descomp_relogio/decoder3x8.vhd                  ;         ;
+; conversorHex7Seg.vhd             ; yes             ; User VHDL File  ; C:/DESCOMP/descomp_relogio/conversorHex7Seg.vhd            ;         ;
+; displayHEX.vhd                   ; yes             ; User VHDL File  ; C:/DESCOMP/descomp_relogio/displayHEX.vhd                  ;         ;
+; buffer_3_state_1porta.vhd        ; yes             ; User VHDL File  ; C:/DESCOMP/descomp_relogio/buffer_3_state_1porta.vhd       ;         ;
+; buffer_3_state_8portas.vhd       ; yes             ; User VHDL File  ; C:/DESCOMP/descomp_relogio/buffer_3_state_8portas.vhd      ;         ;
+; debounceKey.vhd                  ; yes             ; User VHDL File  ; C:/DESCOMP/descomp_relogio/debounceKey.vhd                 ;         ;
+; output_files/ULASomaSubEND.vhd   ; yes             ; User VHDL File  ; C:/DESCOMP/descomp_relogio/output_files/ULASomaSubEND.vhd  ;         ;
+; divisorGenerico_e_Interface.vhd  ; yes             ; User VHDL File  ; C:/DESCOMP/descomp_relogio/divisorGenerico_e_Interface.vhd ;         ;
+; divisorGenerico.vhd              ; yes             ; User VHDL File  ; C:/DESCOMP/descomp_relogio/divisorGenerico.vhd             ;         ;
++----------------------------------+-----------------+-----------------+------------------------------------------------------------+---------+
 
 
 +--------------------------------------------------------------+
@@ -259,14 +259,14 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------+----------------+
 ; Resource                                    ; Usage          ;
 +---------------------------------------------+----------------+
-; Estimate of Logic utilization (ALMs needed) ; 630            ;
+; Estimate of Logic utilization (ALMs needed) ; 632            ;
 ;                                             ;                ;
-; Combinational ALUT usage for logic          ; 686            ;
-;     -- 7 input functions                    ; 23             ;
-;     -- 6 input functions                    ; 369            ;
-;     -- 5 input functions                    ; 123            ;
-;     -- 4 input functions                    ; 93             ;
-;     -- <=3 input functions                  ; 78             ;
+; Combinational ALUT usage for logic          ; 693            ;
+;     -- 7 input functions                    ; 24             ;
+;     -- 6 input functions                    ; 373            ;
+;     -- 5 input functions                    ; 117            ;
+;     -- 4 input functions                    ; 92             ;
+;     -- <=3 input functions                  ; 87             ;
 ;                                             ;                ;
 ; Dedicated logic registers                   ; 709            ;
 ;                                             ;                ;
@@ -276,8 +276,8 @@ https://fpgasoftware.intel.com/eula.
 ;                                             ;                ;
 ; Maximum fan-out node                        ; CLOCK_50~input ;
 ; Maximum fan-out                             ; 705            ;
-; Total fan-out                               ; 5823           ;
-; Average fan-out                             ; 3.69           ;
+; Total fan-out                               ; 5842           ;
+; Average fan-out                             ; 3.68           ;
 +---------------------------------------------+----------------+
 
 
@@ -286,7 +286,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------------------------------------------------------------------+-----------------------------+--------------+
 ; Compilation Hierarchy Node                             ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                             ; Entity Name                 ; Library Name ;
 +--------------------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------------------------------------------------------------------+-----------------------------+--------------+
-; |relogio                                               ; 686 (29)            ; 709 (0)                   ; 0                 ; 0          ; 92   ; 0            ; |relogio                                                                        ; relogio                     ; work         ;
+; |relogio                                               ; 693 (30)            ; 709 (0)                   ; 0                 ; 0          ; 92   ; 0            ; |relogio                                                                        ; relogio                     ; work         ;
 ;    |FlipFlop:FlipFlopLed8|                             ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |relogio|FlipFlop:FlipFlopLed8                                                  ; FlipFlop                    ; work         ;
 ;    |FlipFlop:FlipFlopLed9|                             ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |relogio|FlipFlop:FlipFlopLed9                                                  ; FlipFlop                    ; work         ;
 ;    |cpu:CPU|                                           ; 126 (0)             ; 118 (0)                   ; 0                 ; 0          ; 0    ; 0            ; |relogio|cpu:CPU                                                                ; cpu                         ; work         ;
@@ -334,7 +334,7 @@ https://fpgasoftware.intel.com/eula.
 ;       |FlipFlop:registraUmSegundo|                     ; 0 (0)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |relogio|divisorGenerico_e_Interface:BaseTempo|FlipFlop:registraUmSegundo       ; FlipFlop                    ; work         ;
 ;       |divisorGenerico:baseTempo|                      ; 33 (33)             ; 26 (26)                   ; 0                 ; 0          ; 0    ; 0            ; |relogio|divisorGenerico_e_Interface:BaseTempo|divisorGenerico:baseTempo        ; divisorGenerico             ; work         ;
 ;    |memoriaRAM:RAM|                                    ; 297 (297)           ; 512 (512)                 ; 0                 ; 0          ; 0    ; 0            ; |relogio|memoriaRAM:RAM                                                         ; memoriaRAM                  ; work         ;
-;    |memoriaROM:ROM|                                    ; 137 (137)           ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |relogio|memoriaROM:ROM                                                         ; memoriaROM                  ; work         ;
+;    |memoriaROM:ROM|                                    ; 143 (143)           ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |relogio|memoriaROM:ROM                                                         ; memoriaROM                  ; work         ;
 ;    |registradorGenerico:Registrador_LEDs|              ; 0 (0)               ; 8 (8)                     ; 0                 ; 0          ; 0    ; 0            ; |relogio|registradorGenerico:Registrador_LEDs                                   ; registradorGenerico         ; work         ;
 +--------------------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------------------------------------------------------------------+-----------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
@@ -893,24 +893,24 @@ Note: In order to hide this table in the UI and the text report file, please set
 ;     ENA               ; 651                         ;
 ;     SCLR              ; 37                          ;
 ;     plain             ; 8                           ;
-; arriav_lcell_comb     ; 686                         ;
+; arriav_lcell_comb     ; 693                         ;
 ;     arith             ; 55                          ;
 ;         1 data inputs ; 46                          ;
 ;         3 data inputs ; 1                           ;
 ;         5 data inputs ; 8                           ;
-;     extend            ; 23                          ;
-;         7 data inputs ; 23                          ;
-;     normal            ; 608                         ;
+;     extend            ; 24                          ;
+;         7 data inputs ; 24                          ;
+;     normal            ; 614                         ;
 ;         1 data inputs ; 3                           ;
-;         2 data inputs ; 9                           ;
-;         3 data inputs ; 19                          ;
-;         4 data inputs ; 93                          ;
-;         5 data inputs ; 115                         ;
-;         6 data inputs ; 369                         ;
+;         2 data inputs ; 14                          ;
+;         3 data inputs ; 23                          ;
+;         4 data inputs ; 92                          ;
+;         5 data inputs ; 109                         ;
+;         6 data inputs ; 373                         ;
 ; boundary_port         ; 92                          ;
 ;                       ;                             ;
 ; Max LUT depth         ; 10.70                       ;
-; Average LUT depth     ; 6.71                        ;
+; Average LUT depth     ; 6.76                        ;
 +-----------------------+-----------------------------+
 
 
@@ -919,7 +919,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:04     ;
+; Top            ; 00:00:02     ;
 +----------------+--------------+
 
 
@@ -929,145 +929,145 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
-    Info: Processing started: Mon Oct 30 17:10:19 2023
+    Info: Processing started: Mon Oct 30 19:54:41 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off relogio -c relogio
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 2 design units, including 1 entities, in source file relogio.vhd
-    Info (12022): Found design unit 1: relogio-arquitetura File: C:/descomp/Proj_relogio/relogio.vhd Line: 29
-    Info (12023): Found entity 1: relogio File: C:/descomp/Proj_relogio/relogio.vhd Line: 4
+    Info (12022): Found design unit 1: relogio-arquitetura File: C:/DESCOMP/descomp_relogio/relogio.vhd Line: 29
+    Info (12023): Found entity 1: relogio File: C:/DESCOMP/descomp_relogio/relogio.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file cpu.vhd
-    Info (12022): Found design unit 1: cpu-arquitetura File: C:/descomp/Proj_relogio/cpu.vhd Line: 25
-    Info (12023): Found entity 1: cpu File: C:/descomp/Proj_relogio/cpu.vhd Line: 4
+    Info (12022): Found design unit 1: cpu-arquitetura File: C:/DESCOMP/descomp_relogio/cpu.vhd Line: 25
+    Info (12023): Found entity 1: cpu File: C:/DESCOMP/descomp_relogio/cpu.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file bancoregistradoresarqregmem.vhd
-    Info (12022): Found design unit 1: bancoRegistradoresArqRegMem-comportamento File: C:/descomp/Proj_relogio/bancoRegistradoresArqRegMem.vhd Line: 23
-    Info (12023): Found entity 1: bancoRegistradoresArqRegMem File: C:/descomp/Proj_relogio/bancoRegistradoresArqRegMem.vhd Line: 5
+    Info (12022): Found design unit 1: bancoRegistradoresArqRegMem-comportamento File: C:/DESCOMP/descomp_relogio/bancoRegistradoresArqRegMem.vhd Line: 23
+    Info (12023): Found entity 1: bancoRegistradoresArqRegMem File: C:/DESCOMP/descomp_relogio/bancoRegistradoresArqRegMem.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file ula.vhd
-    Info (12022): Found design unit 1: ULA-comportamento File: C:/descomp/Proj_relogio/ULA.vhd Line: 17
-    Info (12023): Found entity 1: ULA File: C:/descomp/Proj_relogio/ULA.vhd Line: 5
+    Info (12022): Found design unit 1: ULA-comportamento File: C:/DESCOMP/descomp_relogio/ULA.vhd Line: 17
+    Info (12023): Found entity 1: ULA File: C:/DESCOMP/descomp_relogio/ULA.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file registradorgenerico.vhd
-    Info (12022): Found design unit 1: registradorGenerico-comportamento File: C:/descomp/Proj_relogio/registradorGenerico.vhd Line: 15
-    Info (12023): Found entity 1: registradorGenerico File: C:/descomp/Proj_relogio/registradorGenerico.vhd Line: 4
+    Info (12022): Found design unit 1: registradorGenerico-comportamento File: C:/DESCOMP/descomp_relogio/registradorGenerico.vhd Line: 15
+    Info (12023): Found entity 1: registradorGenerico File: C:/DESCOMP/descomp_relogio/registradorGenerico.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file flipflop.vhd
-    Info (12022): Found design unit 1: FlipFlop-comportamento File: C:/descomp/Proj_relogio/FlipFlop.vhd Line: 12
-    Info (12023): Found entity 1: FlipFlop File: C:/descomp/Proj_relogio/FlipFlop.vhd Line: 4
+    Info (12022): Found design unit 1: FlipFlop-comportamento File: C:/DESCOMP/descomp_relogio/FlipFlop.vhd Line: 12
+    Info (12023): Found entity 1: FlipFlop File: C:/DESCOMP/descomp_relogio/FlipFlop.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file mux2x1.vhd
-    Info (12022): Found design unit 1: muxGenerico2x1-comportamento File: C:/descomp/Proj_relogio/MUX2X1.vhd Line: 14
-    Info (12023): Found entity 1: muxGenerico2x1 File: C:/descomp/Proj_relogio/MUX2X1.vhd Line: 4
+    Info (12022): Found design unit 1: muxGenerico2x1-comportamento File: C:/DESCOMP/descomp_relogio/MUX2X1.vhd Line: 14
+    Info (12023): Found entity 1: muxGenerico2x1 File: C:/DESCOMP/descomp_relogio/MUX2X1.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file muxgenerico4x1.vhd
-    Info (12022): Found design unit 1: muxGenerico4x1-comportamento File: C:/descomp/Proj_relogio/muxGenerico4x1.vhd Line: 14
-    Info (12023): Found entity 1: muxGenerico4x1 File: C:/descomp/Proj_relogio/muxGenerico4x1.vhd Line: 4
+    Info (12022): Found design unit 1: muxGenerico4x1-comportamento File: C:/DESCOMP/descomp_relogio/muxGenerico4x1.vhd Line: 14
+    Info (12023): Found entity 1: muxGenerico4x1 File: C:/DESCOMP/descomp_relogio/muxGenerico4x1.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file somaconstante.vhd
-    Info (12022): Found design unit 1: somaConstante-comportamento File: C:/descomp/Proj_relogio/somaConstante.vhd Line: 18
-    Info (12023): Found entity 1: somaConstante File: C:/descomp/Proj_relogio/somaConstante.vhd Line: 5
+    Info (12022): Found design unit 1: somaConstante-comportamento File: C:/DESCOMP/descomp_relogio/somaConstante.vhd Line: 18
+    Info (12023): Found entity 1: somaConstante File: C:/DESCOMP/descomp_relogio/somaConstante.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file logicadesvio1.vhd
-    Info (12022): Found design unit 1: LogicaDesvio1-comportamento File: C:/descomp/Proj_relogio/LogicaDesvio1.vhd Line: 16
-    Info (12023): Found entity 1: LogicaDesvio1 File: C:/descomp/Proj_relogio/LogicaDesvio1.vhd Line: 4
+    Info (12022): Found design unit 1: LogicaDesvio1-comportamento File: C:/DESCOMP/descomp_relogio/LogicaDesvio1.vhd Line: 16
+    Info (12023): Found entity 1: LogicaDesvio1 File: C:/DESCOMP/descomp_relogio/LogicaDesvio1.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file decoderinstrucao.vhd
-    Info (12022): Found design unit 1: decoderInstrucao-comportamento File: C:/descomp/Proj_relogio/decoderInstrucao.vhd Line: 10
-    Info (12023): Found entity 1: decoderInstrucao File: C:/descomp/Proj_relogio/decoderInstrucao.vhd Line: 4
+    Info (12022): Found design unit 1: decoderInstrucao-comportamento File: C:/DESCOMP/descomp_relogio/decoderInstrucao.vhd Line: 10
+    Info (12023): Found entity 1: decoderInstrucao File: C:/DESCOMP/descomp_relogio/decoderInstrucao.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file memoriarom.vhd
-    Info (12022): Found design unit 1: memoriaROM-assincrona File: C:/descomp/Proj_relogio/memoriaROM.vhd Line: 16
-    Info (12023): Found entity 1: memoriaROM File: C:/descomp/Proj_relogio/memoriaROM.vhd Line: 5
+    Info (12022): Found design unit 1: memoriaROM-assincrona File: C:/DESCOMP/descomp_relogio/memoriaROM.vhd Line: 16
+    Info (12023): Found entity 1: memoriaROM File: C:/DESCOMP/descomp_relogio/memoriaROM.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file memoriaram.vhd
-    Info (12022): Found design unit 1: memoriaRAM-rtl File: C:/descomp/Proj_relogio/memoriaRAM.vhd Line: 21
-    Info (12023): Found entity 1: memoriaRAM File: C:/descomp/Proj_relogio/memoriaRAM.vhd Line: 5
+    Info (12022): Found design unit 1: memoriaRAM-rtl File: C:/DESCOMP/descomp_relogio/memoriaRAM.vhd Line: 21
+    Info (12023): Found entity 1: memoriaRAM File: C:/DESCOMP/descomp_relogio/memoriaRAM.vhd Line: 5
 Info (12021): Found 3 design units, including 1 entities, in source file edgedetector.vhd
-    Info (12022): Found design unit 1: edgeDetector-bordaSubida File: C:/descomp/Proj_relogio/edgeDetector.vhd Line: 10
-    Info (12022): Found design unit 2: edgeDetector-bordaDescida File: C:/descomp/Proj_relogio/edgeDetector.vhd Line: 23
-    Info (12023): Found entity 1: edgeDetector File: C:/descomp/Proj_relogio/edgeDetector.vhd Line: 4
+    Info (12022): Found design unit 1: edgeDetector-bordaSubida File: C:/DESCOMP/descomp_relogio/edgeDetector.vhd Line: 10
+    Info (12022): Found design unit 2: edgeDetector-bordaDescida File: C:/DESCOMP/descomp_relogio/edgeDetector.vhd Line: 23
+    Info (12023): Found entity 1: edgeDetector File: C:/DESCOMP/descomp_relogio/edgeDetector.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file decoder3x8.vhd
-    Info (12022): Found design unit 1: decoder3x8-comportamento File: C:/descomp/Proj_relogio/decoder3x8.vhd Line: 10
-    Info (12023): Found entity 1: decoder3x8 File: C:/descomp/Proj_relogio/decoder3x8.vhd Line: 4
+    Info (12022): Found design unit 1: decoder3x8-comportamento File: C:/DESCOMP/descomp_relogio/decoder3x8.vhd Line: 10
+    Info (12023): Found entity 1: decoder3x8 File: C:/DESCOMP/descomp_relogio/decoder3x8.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file conversorhex7seg.vhd
-    Info (12022): Found design unit 1: conversorHex7Seg-comportamento File: C:/descomp/Proj_relogio/conversorHex7Seg.vhd Line: 17
-    Info (12023): Found entity 1: conversorHex7Seg File: C:/descomp/Proj_relogio/conversorHex7Seg.vhd Line: 4
+    Info (12022): Found design unit 1: conversorHex7Seg-comportamento File: C:/DESCOMP/descomp_relogio/conversorHex7Seg.vhd Line: 17
+    Info (12023): Found entity 1: conversorHex7Seg File: C:/DESCOMP/descomp_relogio/conversorHex7Seg.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file displayhex.vhd
-    Info (12022): Found design unit 1: displayHEX-arquitetura File: C:/descomp/Proj_relogio/displayHEX.vhd Line: 20
-    Info (12023): Found entity 1: displayHEX File: C:/descomp/Proj_relogio/displayHEX.vhd Line: 4
+    Info (12022): Found design unit 1: displayHEX-arquitetura File: C:/DESCOMP/descomp_relogio/displayHEX.vhd Line: 20
+    Info (12023): Found entity 1: displayHEX File: C:/DESCOMP/descomp_relogio/displayHEX.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file buffer_3_state_1porta.vhd
-    Info (12022): Found design unit 1: buffer_3_state_1porta-comportamento File: C:/descomp/Proj_relogio/buffer_3_state_1porta.vhd Line: 11
-    Info (12023): Found entity 1: buffer_3_state_1porta File: C:/descomp/Proj_relogio/buffer_3_state_1porta.vhd Line: 4
+    Info (12022): Found design unit 1: buffer_3_state_1porta-comportamento File: C:/DESCOMP/descomp_relogio/buffer_3_state_1porta.vhd Line: 11
+    Info (12023): Found entity 1: buffer_3_state_1porta File: C:/DESCOMP/descomp_relogio/buffer_3_state_1porta.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file buffer_3_state_8portas.vhd
-    Info (12022): Found design unit 1: buffer_3_state_8portas-comportamento File: C:/descomp/Proj_relogio/buffer_3_state_8portas.vhd Line: 11
-    Info (12023): Found entity 1: buffer_3_state_8portas File: C:/descomp/Proj_relogio/buffer_3_state_8portas.vhd Line: 4
+    Info (12022): Found design unit 1: buffer_3_state_8portas-comportamento File: C:/DESCOMP/descomp_relogio/buffer_3_state_8portas.vhd Line: 11
+    Info (12023): Found entity 1: buffer_3_state_8portas File: C:/DESCOMP/descomp_relogio/buffer_3_state_8portas.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file debouncekey.vhd
-    Info (12022): Found design unit 1: debounceKey-arquitetura File: C:/descomp/Proj_relogio/debounceKey.vhd Line: 21
-    Info (12023): Found entity 1: debounceKey File: C:/descomp/Proj_relogio/debounceKey.vhd Line: 4
+    Info (12022): Found design unit 1: debounceKey-arquitetura File: C:/DESCOMP/descomp_relogio/debounceKey.vhd Line: 21
+    Info (12023): Found entity 1: debounceKey File: C:/DESCOMP/descomp_relogio/debounceKey.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file output_files/ulasomasubend.vhd
-    Info (12022): Found design unit 1: ULASomaSubEND-comportamento File: C:/descomp/Proj_relogio/output_files/ULASomaSubEND.vhd Line: 14
-    Info (12023): Found entity 1: ULASomaSubEND File: C:/descomp/Proj_relogio/output_files/ULASomaSubEND.vhd Line: 5
+    Info (12022): Found design unit 1: ULASomaSubEND-comportamento File: C:/DESCOMP/descomp_relogio/output_files/ULASomaSubEND.vhd Line: 14
+    Info (12023): Found entity 1: ULASomaSubEND File: C:/DESCOMP/descomp_relogio/output_files/ULASomaSubEND.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file divisorgenerico_e_interface.vhd
-    Info (12022): Found design unit 1: divisorGenerico_e_Interface-interface File: C:/descomp/Proj_relogio/divisorGenerico_e_Interface.vhd Line: 16
-    Info (12023): Found entity 1: divisorGenerico_e_Interface File: C:/descomp/Proj_relogio/divisorGenerico_e_Interface.vhd Line: 5
+    Info (12022): Found design unit 1: divisorGenerico_e_Interface-interface File: C:/DESCOMP/descomp_relogio/divisorGenerico_e_Interface.vhd Line: 16
+    Info (12023): Found entity 1: divisorGenerico_e_Interface File: C:/DESCOMP/descomp_relogio/divisorGenerico_e_Interface.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file divisorgenerico.vhd
-    Info (12022): Found design unit 1: divisorGenerico-divInteiro File: C:/descomp/Proj_relogio/divisorGenerico.vhd Line: 15
-    Info (12023): Found entity 1: divisorGenerico File: C:/descomp/Proj_relogio/divisorGenerico.vhd Line: 5
+    Info (12022): Found design unit 1: divisorGenerico-divInteiro File: C:/DESCOMP/descomp_relogio/divisorGenerico.vhd Line: 15
+    Info (12023): Found entity 1: divisorGenerico File: C:/DESCOMP/descomp_relogio/divisorGenerico.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file buffer_3_state_9portas.vhd
-    Info (12022): Found design unit 1: buffer_3_state_9portas-comportamento File: C:/descomp/Proj_relogio/buffer_3_state_9portas.vhd Line: 11
-    Info (12023): Found entity 1: buffer_3_state_9portas File: C:/descomp/Proj_relogio/buffer_3_state_9portas.vhd Line: 4
+    Info (12022): Found design unit 1: buffer_3_state_9portas-comportamento File: C:/DESCOMP/descomp_relogio/buffer_3_state_9portas.vhd Line: 11
+    Info (12023): Found entity 1: buffer_3_state_9portas File: C:/DESCOMP/descomp_relogio/buffer_3_state_9portas.vhd Line: 4
 Info (12127): Elaborating entity "relogio" for the top level hierarchy
-Info (12128): Elaborating entity "memoriaROM" for hierarchy "memoriaROM:ROM" File: C:/descomp/Proj_relogio/relogio.vhd Line: 115
-Info (12128): Elaborating entity "memoriaRAM" for hierarchy "memoriaRAM:RAM" File: C:/descomp/Proj_relogio/relogio.vhd Line: 119
-Info (12128): Elaborating entity "cpu" for hierarchy "cpu:CPU" File: C:/descomp/Proj_relogio/relogio.vhd Line: 129
-Info (12128): Elaborating entity "bancoRegistradoresArqRegMem" for hierarchy "cpu:CPU|bancoRegistradoresArqRegMem:bancoRegistradores" File: C:/descomp/Proj_relogio/cpu.vhd Line: 89
-Info (12128): Elaborating entity "ULA" for hierarchy "cpu:CPU|ULA:ULA" File: C:/descomp/Proj_relogio/cpu.vhd Line: 97
-Info (12128): Elaborating entity "FlipFlop" for hierarchy "cpu:CPU|FlipFlop:FlipFlop" File: C:/descomp/Proj_relogio/cpu.vhd Line: 106
-Info (12128): Elaborating entity "muxGenerico2x1" for hierarchy "cpu:CPU|muxGenerico2x1:MUX_CPU" File: C:/descomp/Proj_relogio/cpu.vhd Line: 121
-Info (12128): Elaborating entity "muxGenerico4x1" for hierarchy "cpu:CPU|muxGenerico4x1:MUX_ENDERECO" File: C:/descomp/Proj_relogio/cpu.vhd Line: 128
-Info (12128): Elaborating entity "registradorGenerico" for hierarchy "cpu:CPU|registradorGenerico:PC" File: C:/descomp/Proj_relogio/cpu.vhd Line: 137
-Info (12128): Elaborating entity "somaConstante" for hierarchy "cpu:CPU|somaConstante:incrementaPC" File: C:/descomp/Proj_relogio/cpu.vhd Line: 144
-Info (12128): Elaborating entity "memoriaRAM" for hierarchy "cpu:CPU|memoriaRAM:RAM_END" File: C:/descomp/Proj_relogio/cpu.vhd Line: 152
-Info (12128): Elaborating entity "muxGenerico2x1" for hierarchy "cpu:CPU|muxGenerico2x1:MUX_END" File: C:/descomp/Proj_relogio/cpu.vhd Line: 161
-Info (12128): Elaborating entity "ULASomaSubEND" for hierarchy "cpu:CPU|ULASomaSubEND:ULA_END" File: C:/descomp/Proj_relogio/cpu.vhd Line: 168
-Info (12128): Elaborating entity "registradorGenerico" for hierarchy "cpu:CPU|registradorGenerico:REG_retorno" File: C:/descomp/Proj_relogio/cpu.vhd Line: 174
-Info (12128): Elaborating entity "LogicaDesvio1" for hierarchy "cpu:CPU|LogicaDesvio1:LogicaDesvio1" File: C:/descomp/Proj_relogio/cpu.vhd Line: 183
-Info (12128): Elaborating entity "decoderInstrucao" for hierarchy "cpu:CPU|decoderInstrucao:DECODER" File: C:/descomp/Proj_relogio/cpu.vhd Line: 193
-Info (12128): Elaborating entity "decoder3x8" for hierarchy "decoder3x8:DecoderBlocoRAM" File: C:/descomp/Proj_relogio/relogio.vhd Line: 141
-Info (12128): Elaborating entity "registradorGenerico" for hierarchy "registradorGenerico:Registrador_LEDs" File: C:/descomp/Proj_relogio/relogio.vhd Line: 162
-Info (12128): Elaborating entity "displayHEX" for hierarchy "displayHEX:HEX_0" File: C:/descomp/Proj_relogio/relogio.vhd Line: 168
-Info (12128): Elaborating entity "registradorGenerico" for hierarchy "displayHEX:HEX_0|registradorGenerico:REG_HEX0" File: C:/descomp/Proj_relogio/displayHEX.vhd Line: 30
-Info (12128): Elaborating entity "conversorHex7Seg" for hierarchy "displayHEX:HEX_0|conversorHex7Seg:DECODER_HEX0" File: C:/descomp/Proj_relogio/displayHEX.vhd Line: 37
-Info (12128): Elaborating entity "buffer_3_state_8portas" for hierarchy "buffer_3_state_8portas:BufferSW0a7" File: C:/descomp/Proj_relogio/relogio.vhd Line: 199
-Info (12128): Elaborating entity "buffer_3_state_1porta" for hierarchy "buffer_3_state_1porta:BufferSW8" File: C:/descomp/Proj_relogio/relogio.vhd Line: 204
-Info (12128): Elaborating entity "debounceKey" for hierarchy "debounceKey:KEY_0" File: C:/descomp/Proj_relogio/relogio.vhd Line: 233
-Info (12129): Elaborating entity "edgeDetector" using architecture "A:bordasubida" for hierarchy "debounceKey:KEY_0|edgeDetector:detectorkey" File: C:/descomp/Proj_relogio/debounceKey.vhd Line: 30
-Info (12128): Elaborating entity "divisorGenerico_e_Interface" for hierarchy "divisorGenerico_e_Interface:BaseTempo" File: C:/descomp/Proj_relogio/relogio.vhd Line: 250
-Info (12128): Elaborating entity "divisorGenerico" for hierarchy "divisorGenerico_e_Interface:BaseTempo|divisorGenerico:baseTempo" File: C:/descomp/Proj_relogio/divisorGenerico_e_Interface.vhd Line: 21
-Info (12128): Elaborating entity "divisorGenerico_e_Interface" for hierarchy "divisorGenerico_e_Interface:BaseTempoRapida" File: C:/descomp/Proj_relogio/relogio.vhd Line: 259
-Info (12128): Elaborating entity "divisorGenerico" for hierarchy "divisorGenerico_e_Interface:BaseTempoRapida|divisorGenerico:baseTempo" File: C:/descomp/Proj_relogio/divisorGenerico_e_Interface.vhd Line: 21
+Info (12128): Elaborating entity "memoriaROM" for hierarchy "memoriaROM:ROM" File: C:/DESCOMP/descomp_relogio/relogio.vhd Line: 115
+Info (12128): Elaborating entity "memoriaRAM" for hierarchy "memoriaRAM:RAM" File: C:/DESCOMP/descomp_relogio/relogio.vhd Line: 119
+Info (12128): Elaborating entity "cpu" for hierarchy "cpu:CPU" File: C:/DESCOMP/descomp_relogio/relogio.vhd Line: 129
+Info (12128): Elaborating entity "bancoRegistradoresArqRegMem" for hierarchy "cpu:CPU|bancoRegistradoresArqRegMem:bancoRegistradores" File: C:/DESCOMP/descomp_relogio/cpu.vhd Line: 89
+Info (12128): Elaborating entity "ULA" for hierarchy "cpu:CPU|ULA:ULA" File: C:/DESCOMP/descomp_relogio/cpu.vhd Line: 97
+Info (12128): Elaborating entity "FlipFlop" for hierarchy "cpu:CPU|FlipFlop:FlipFlop" File: C:/DESCOMP/descomp_relogio/cpu.vhd Line: 106
+Info (12128): Elaborating entity "muxGenerico2x1" for hierarchy "cpu:CPU|muxGenerico2x1:MUX_CPU" File: C:/DESCOMP/descomp_relogio/cpu.vhd Line: 121
+Info (12128): Elaborating entity "muxGenerico4x1" for hierarchy "cpu:CPU|muxGenerico4x1:MUX_ENDERECO" File: C:/DESCOMP/descomp_relogio/cpu.vhd Line: 128
+Info (12128): Elaborating entity "registradorGenerico" for hierarchy "cpu:CPU|registradorGenerico:PC" File: C:/DESCOMP/descomp_relogio/cpu.vhd Line: 137
+Info (12128): Elaborating entity "somaConstante" for hierarchy "cpu:CPU|somaConstante:incrementaPC" File: C:/DESCOMP/descomp_relogio/cpu.vhd Line: 144
+Info (12128): Elaborating entity "memoriaRAM" for hierarchy "cpu:CPU|memoriaRAM:RAM_END" File: C:/DESCOMP/descomp_relogio/cpu.vhd Line: 152
+Info (12128): Elaborating entity "muxGenerico2x1" for hierarchy "cpu:CPU|muxGenerico2x1:MUX_END" File: C:/DESCOMP/descomp_relogio/cpu.vhd Line: 161
+Info (12128): Elaborating entity "ULASomaSubEND" for hierarchy "cpu:CPU|ULASomaSubEND:ULA_END" File: C:/DESCOMP/descomp_relogio/cpu.vhd Line: 168
+Info (12128): Elaborating entity "registradorGenerico" for hierarchy "cpu:CPU|registradorGenerico:REG_retorno" File: C:/DESCOMP/descomp_relogio/cpu.vhd Line: 174
+Info (12128): Elaborating entity "LogicaDesvio1" for hierarchy "cpu:CPU|LogicaDesvio1:LogicaDesvio1" File: C:/DESCOMP/descomp_relogio/cpu.vhd Line: 183
+Info (12128): Elaborating entity "decoderInstrucao" for hierarchy "cpu:CPU|decoderInstrucao:DECODER" File: C:/DESCOMP/descomp_relogio/cpu.vhd Line: 193
+Info (12128): Elaborating entity "decoder3x8" for hierarchy "decoder3x8:DecoderBlocoRAM" File: C:/DESCOMP/descomp_relogio/relogio.vhd Line: 141
+Info (12128): Elaborating entity "registradorGenerico" for hierarchy "registradorGenerico:Registrador_LEDs" File: C:/DESCOMP/descomp_relogio/relogio.vhd Line: 162
+Info (12128): Elaborating entity "displayHEX" for hierarchy "displayHEX:HEX_0" File: C:/DESCOMP/descomp_relogio/relogio.vhd Line: 168
+Info (12128): Elaborating entity "registradorGenerico" for hierarchy "displayHEX:HEX_0|registradorGenerico:REG_HEX0" File: C:/DESCOMP/descomp_relogio/displayHEX.vhd Line: 30
+Info (12128): Elaborating entity "conversorHex7Seg" for hierarchy "displayHEX:HEX_0|conversorHex7Seg:DECODER_HEX0" File: C:/DESCOMP/descomp_relogio/displayHEX.vhd Line: 37
+Info (12128): Elaborating entity "buffer_3_state_8portas" for hierarchy "buffer_3_state_8portas:BufferSW0a7" File: C:/DESCOMP/descomp_relogio/relogio.vhd Line: 199
+Info (12128): Elaborating entity "buffer_3_state_1porta" for hierarchy "buffer_3_state_1porta:BufferSW8" File: C:/DESCOMP/descomp_relogio/relogio.vhd Line: 204
+Info (12128): Elaborating entity "debounceKey" for hierarchy "debounceKey:KEY_0" File: C:/DESCOMP/descomp_relogio/relogio.vhd Line: 233
+Info (12129): Elaborating entity "edgeDetector" using architecture "A:bordasubida" for hierarchy "debounceKey:KEY_0|edgeDetector:detectorkey" File: C:/DESCOMP/descomp_relogio/debounceKey.vhd Line: 30
+Info (12128): Elaborating entity "divisorGenerico_e_Interface" for hierarchy "divisorGenerico_e_Interface:BaseTempo" File: C:/DESCOMP/descomp_relogio/relogio.vhd Line: 250
+Info (12128): Elaborating entity "divisorGenerico" for hierarchy "divisorGenerico_e_Interface:BaseTempo|divisorGenerico:baseTempo" File: C:/DESCOMP/descomp_relogio/divisorGenerico_e_Interface.vhd Line: 21
+Info (12128): Elaborating entity "divisorGenerico_e_Interface" for hierarchy "divisorGenerico_e_Interface:BaseTempoRapida" File: C:/DESCOMP/descomp_relogio/relogio.vhd Line: 259
+Info (12128): Elaborating entity "divisorGenerico" for hierarchy "divisorGenerico_e_Interface:BaseTempoRapida|divisorGenerico:baseTempo" File: C:/DESCOMP/descomp_relogio/divisorGenerico_e_Interface.vhd Line: 21
 Info (276014): Found 3 instances of uninferred RAM logic
-    Info (276007): RAM logic "cpu:CPU|memoriaRAM:RAM_END|ram" is uninferred due to asynchronous read logic File: C:/descomp/Proj_relogio/memoriaRAM.vhd Line: 27
-    Info (276004): RAM logic "cpu:CPU|bancoRegistradoresArqRegMem:bancoRegistradores|registrador" is uninferred due to inappropriate RAM size File: C:/descomp/Proj_relogio/bancoRegistradoresArqRegMem.vhd Line: 29
-    Info (276007): RAM logic "memoriaRAM:RAM|ram" is uninferred due to asynchronous read logic File: C:/descomp/Proj_relogio/memoriaRAM.vhd Line: 27
+    Info (276007): RAM logic "cpu:CPU|memoriaRAM:RAM_END|ram" is uninferred due to asynchronous read logic File: C:/DESCOMP/descomp_relogio/memoriaRAM.vhd Line: 27
+    Info (276004): RAM logic "cpu:CPU|bancoRegistradoresArqRegMem:bancoRegistradores|registrador" is uninferred due to inappropriate RAM size File: C:/DESCOMP/descomp_relogio/bancoRegistradoresArqRegMem.vhd Line: 29
+    Info (276007): RAM logic "memoriaRAM:RAM|ram" is uninferred due to asynchronous read logic File: C:/DESCOMP/descomp_relogio/memoriaRAM.vhd Line: 27
 Warning (13046): Tri-state node(s) do not directly drive top-level pin(s)
-    Warning (13048): Converted tri-state node "entrada_dados_cpu[7]" into a selector File: C:/descomp/Proj_relogio/MUX2X1.vhd Line: 10
-    Warning (13048): Converted tri-state node "entrada_dados_cpu[6]" into a selector File: C:/descomp/Proj_relogio/MUX2X1.vhd Line: 10
-    Warning (13048): Converted tri-state node "entrada_dados_cpu[5]" into a selector File: C:/descomp/Proj_relogio/MUX2X1.vhd Line: 10
-    Warning (13048): Converted tri-state node "entrada_dados_cpu[4]" into a selector File: C:/descomp/Proj_relogio/MUX2X1.vhd Line: 10
-    Warning (13048): Converted tri-state node "entrada_dados_cpu[3]" into a selector File: C:/descomp/Proj_relogio/MUX2X1.vhd Line: 10
-    Warning (13048): Converted tri-state node "entrada_dados_cpu[2]" into a selector File: C:/descomp/Proj_relogio/MUX2X1.vhd Line: 10
-    Warning (13048): Converted tri-state node "entrada_dados_cpu[1]" into a selector File: C:/descomp/Proj_relogio/MUX2X1.vhd Line: 10
-    Warning (13048): Converted tri-state node "entrada_dados_cpu[0]" into a selector File: C:/descomp/Proj_relogio/MUX2X1.vhd Line: 10
-    Warning (13049): Converted tri-state buffer "cpu:CPU|memoriaRAM:RAM_END|dado_out[0]" feeding internal logic into a wire File: C:/descomp/Proj_relogio/memoriaRAM.vhd Line: 17
-    Warning (13049): Converted tri-state buffer "cpu:CPU|memoriaRAM:RAM_END|dado_out[1]" feeding internal logic into a wire File: C:/descomp/Proj_relogio/memoriaRAM.vhd Line: 17
-    Warning (13049): Converted tri-state buffer "cpu:CPU|memoriaRAM:RAM_END|dado_out[2]" feeding internal logic into a wire File: C:/descomp/Proj_relogio/memoriaRAM.vhd Line: 17
-    Warning (13049): Converted tri-state buffer "cpu:CPU|memoriaRAM:RAM_END|dado_out[3]" feeding internal logic into a wire File: C:/descomp/Proj_relogio/memoriaRAM.vhd Line: 17
-    Warning (13049): Converted tri-state buffer "cpu:CPU|memoriaRAM:RAM_END|dado_out[4]" feeding internal logic into a wire File: C:/descomp/Proj_relogio/memoriaRAM.vhd Line: 17
-    Warning (13049): Converted tri-state buffer "cpu:CPU|memoriaRAM:RAM_END|dado_out[5]" feeding internal logic into a wire File: C:/descomp/Proj_relogio/memoriaRAM.vhd Line: 17
-    Warning (13049): Converted tri-state buffer "cpu:CPU|memoriaRAM:RAM_END|dado_out[6]" feeding internal logic into a wire File: C:/descomp/Proj_relogio/memoriaRAM.vhd Line: 17
-    Warning (13049): Converted tri-state buffer "cpu:CPU|memoriaRAM:RAM_END|dado_out[7]" feeding internal logic into a wire File: C:/descomp/Proj_relogio/memoriaRAM.vhd Line: 17
-    Warning (13049): Converted tri-state buffer "cpu:CPU|memoriaRAM:RAM_END|dado_out[8]" feeding internal logic into a wire File: C:/descomp/Proj_relogio/memoriaRAM.vhd Line: 17
+    Warning (13048): Converted tri-state node "entrada_dados_cpu[7]" into a selector File: C:/DESCOMP/descomp_relogio/MUX2X1.vhd Line: 10
+    Warning (13048): Converted tri-state node "entrada_dados_cpu[6]" into a selector File: C:/DESCOMP/descomp_relogio/MUX2X1.vhd Line: 10
+    Warning (13048): Converted tri-state node "entrada_dados_cpu[5]" into a selector File: C:/DESCOMP/descomp_relogio/MUX2X1.vhd Line: 10
+    Warning (13048): Converted tri-state node "entrada_dados_cpu[4]" into a selector File: C:/DESCOMP/descomp_relogio/MUX2X1.vhd Line: 10
+    Warning (13048): Converted tri-state node "entrada_dados_cpu[3]" into a selector File: C:/DESCOMP/descomp_relogio/MUX2X1.vhd Line: 10
+    Warning (13048): Converted tri-state node "entrada_dados_cpu[2]" into a selector File: C:/DESCOMP/descomp_relogio/MUX2X1.vhd Line: 10
+    Warning (13048): Converted tri-state node "entrada_dados_cpu[1]" into a selector File: C:/DESCOMP/descomp_relogio/MUX2X1.vhd Line: 10
+    Warning (13048): Converted tri-state node "entrada_dados_cpu[0]" into a selector File: C:/DESCOMP/descomp_relogio/MUX2X1.vhd Line: 10
+    Warning (13049): Converted tri-state buffer "cpu:CPU|memoriaRAM:RAM_END|dado_out[0]" feeding internal logic into a wire File: C:/DESCOMP/descomp_relogio/memoriaRAM.vhd Line: 17
+    Warning (13049): Converted tri-state buffer "cpu:CPU|memoriaRAM:RAM_END|dado_out[1]" feeding internal logic into a wire File: C:/DESCOMP/descomp_relogio/memoriaRAM.vhd Line: 17
+    Warning (13049): Converted tri-state buffer "cpu:CPU|memoriaRAM:RAM_END|dado_out[2]" feeding internal logic into a wire File: C:/DESCOMP/descomp_relogio/memoriaRAM.vhd Line: 17
+    Warning (13049): Converted tri-state buffer "cpu:CPU|memoriaRAM:RAM_END|dado_out[3]" feeding internal logic into a wire File: C:/DESCOMP/descomp_relogio/memoriaRAM.vhd Line: 17
+    Warning (13049): Converted tri-state buffer "cpu:CPU|memoriaRAM:RAM_END|dado_out[4]" feeding internal logic into a wire File: C:/DESCOMP/descomp_relogio/memoriaRAM.vhd Line: 17
+    Warning (13049): Converted tri-state buffer "cpu:CPU|memoriaRAM:RAM_END|dado_out[5]" feeding internal logic into a wire File: C:/DESCOMP/descomp_relogio/memoriaRAM.vhd Line: 17
+    Warning (13049): Converted tri-state buffer "cpu:CPU|memoriaRAM:RAM_END|dado_out[6]" feeding internal logic into a wire File: C:/DESCOMP/descomp_relogio/memoriaRAM.vhd Line: 17
+    Warning (13049): Converted tri-state buffer "cpu:CPU|memoriaRAM:RAM_END|dado_out[7]" feeding internal logic into a wire File: C:/DESCOMP/descomp_relogio/memoriaRAM.vhd Line: 17
+    Warning (13049): Converted tri-state buffer "cpu:CPU|memoriaRAM:RAM_END|dado_out[8]" feeding internal logic into a wire File: C:/DESCOMP/descomp_relogio/memoriaRAM.vhd Line: 17
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 1430 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 1437 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 16 input pins
     Info (21059): Implemented 76 output pins
-    Info (21061): Implemented 1338 logic cells
+    Info (21061): Implemented 1345 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 18 warnings
-    Info: Peak virtual memory: 4852 megabytes
-    Info: Processing ended: Mon Oct 30 17:10:43 2023
-    Info: Elapsed time: 00:00:24
-    Info: Total CPU time (on all processors): 00:00:49
+    Info: Peak virtual memory: 4856 megabytes
+    Info: Processing ended: Mon Oct 30 19:54:51 2023
+    Info: Elapsed time: 00:00:10
+    Info: Total CPU time (on all processors): 00:00:08
 
 
